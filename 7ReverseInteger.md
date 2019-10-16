@@ -31,12 +31,13 @@
 class Solution {
 public:
     int reverse(int x) {
-      // 提前判断，避免 x==INT_MIN时，取 -x 时崩溃
+      // 提前判断，避免 x==INT_MIN时，取 -x 时溢出
         if(x>INT_MAX || x<-INT_MAX) return 0;
         long int res = 0;
         int temp = x;
         if(x<0) temp = -x;
         while(temp>0) {
+            // 这里是 long int，注意如果是 int，res*10 可能溢出
             res = res*10 + temp%10;
             temp = temp/10;
         }
