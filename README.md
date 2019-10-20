@@ -14,3 +14,7 @@ All about LeetCode. Hope this one lives longer.
 [13. Roman to Integer 罗马数字转整数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/13RomanToInteger.md) - easy
 
 [14. Longest Common Prefix 最长公共前缀](https://github.com/RickeyBoy/LeetCodeGists/blob/master/14LongestCommonPrefix.md) - easy
+
+[20. Valid Parentheses 有效的括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/20ValidParentheses.md) - easy
+
+[21. Merge Two Sorted Lists 合并两个有序数列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/21MergeTwoSortedLists.md) - easy
