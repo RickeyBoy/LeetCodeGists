@@ -18,3 +18,5 @@ All about LeetCode. Hope this one lives longer.
 [20. Valid Parentheses 有效的括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/20ValidParentheses.md) - easy
 
 [21. Merge Two Sorted Lists 合并两个有序数列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/21MergeTwoSortedLists.md) - easy
+
+[26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/26RemoveDuplicatesfromSortedArray.md) - easy
