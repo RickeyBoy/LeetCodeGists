@@ -1,7 +1,6 @@
 # LeetCodeGists
+
 All about LeetCode. Hope this one lives longer.
-
-
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
 
@@ -20,3 +19,4 @@ All about LeetCode. Hope this one lives longer.
 [21. Merge Two Sorted Lists 合并两个有序数列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/21MergeTwoSortedLists.md) - easy
 
 [26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/26RemoveDuplicatesfromSortedArray.md) - easy
+
