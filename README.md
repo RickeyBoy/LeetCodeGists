@@ -1,6 +1,10 @@
 # LeetCodeGists
 
+### 算法笔记
 
+[KMP Algorithm - 字符串匹配](https://github.com/RickeyBoy/LeetCodeGists/blob/master/KMPAlgorithm.md)
+
+### 做题记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
 
