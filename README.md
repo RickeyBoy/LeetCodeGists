@@ -24,3 +24,4 @@
 
 [26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/26RemoveDuplicatesfromSortedArray.md) - easy
 
+[53. MaximumSubarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/53MaximumSubarray.md) - easy
