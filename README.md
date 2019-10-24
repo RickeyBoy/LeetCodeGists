@@ -10,6 +10,8 @@
 
 [2. Add Two Numbers 两数相加](https://github.com/RickeyBoy/LeetCodeGists/blob/master/2AddTwoNumbers.md) - medium
 
+[3. Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/3LongestSubstringWithoutRepeatingCharacters.md) - medium
+
 [7. Reverse Integer 整数反转](https://github.com/RickeyBoy/LeetCodeGists/blob/master/7ReverseInteger.md) - easy
 
 [9. Palindrome Number 回文数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/9PalindromeNumber.md) - easy
@@ -24,4 +26,6 @@
 
 [26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/26RemoveDuplicatesfromSortedArray.md) - easy
 
-[53. MaximumSubarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/53MaximumSubarray.md) - easy
+[53. Maximum Subarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/53MaximumSubarray.md) - easy
+
+[66. Plus One 加一](https://github.com/RickeyBoy/LeetCodeGists/blob/master/66PlusOne.md) - easy
