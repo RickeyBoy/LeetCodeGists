@@ -12,6 +12,8 @@
 
 [3. Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/3LongestSubstringWithoutRepeatingCharacters.md) - medium
 
+[4. Median of Two Sorted Arrays 寻找两个有序数组的中位数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/4MedianofTwoSortedArrays.md) - hard
+
 [7. Reverse Integer 整数反转](https://github.com/RickeyBoy/LeetCodeGists/blob/master/7ReverseInteger.md) - easy
 
 [9. Palindrome Number 回文数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/9PalindromeNumber.md) - easy
@@ -29,3 +31,4 @@
 [53. Maximum Subarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/53MaximumSubarray.md) - easy
 
 [66. Plus One 加一](https://github.com/RickeyBoy/LeetCodeGists/blob/master/66PlusOne.md) - easy
+
