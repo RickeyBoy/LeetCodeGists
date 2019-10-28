@@ -14,6 +14,8 @@
 
 [4. Median of Two Sorted Arrays 寻找两个有序数组的中位数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/4MedianofTwoSortedArrays.md) - hard
 
+[5. Longest Palindromic Substring 最长回文子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/5LongestPalindromicSubstring.md) - medium
+
 [7. Reverse Integer 整数反转](https://github.com/RickeyBoy/LeetCodeGists/blob/master/7ReverseInteger.md) - easy
 
 [9. Palindrome Number 回文数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/9PalindromeNumber.md) - easy
