@@ -34,3 +34,4 @@
 
 [66. Plus One 加一](https://github.com/RickeyBoy/LeetCodeGists/blob/master/66PlusOne.md) - easy
 
+[88. Merge Sorted Array 合并两个有序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/88MergeSortedArray.md) - easy
