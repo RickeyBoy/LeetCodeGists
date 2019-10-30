@@ -36,4 +36,6 @@
 
 [69. Sqrt(x) x 的平方根](https://github.com/RickeyBoy/LeetCodeGists/blob/master/69Sqrt(x).md) - easy
 
+[70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/70ClimbingStairs.md) - easy
+
 [88. Merge Sorted Array 合并两个有序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/88MergeSortedArray.md) - easy
