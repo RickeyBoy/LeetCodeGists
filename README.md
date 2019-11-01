@@ -38,4 +38,6 @@
 
 [70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/70ClimbingStairs.md) - easy
 
+[73. Set Matrix Zeroes 矩阵置零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/73SetMatrixZeroes.md) - medium
+
 [88. Merge Sorted Array 合并两个有序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/88MergeSortedArray.md) - easy
