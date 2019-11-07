@@ -22,6 +22,8 @@
 
 [9. Palindrome Number 回文数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/9PalindromeNumber.md) - easy
 
+[10. Regular Expression Matching 回文数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/10RegularExpressionMatching.md) - hard
+
 [13. Roman to Integer 罗马数字转整数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/13RomanToInteger.md) - easy
 
 [14. Longest Common Prefix 最长公共前缀](https://github.com/RickeyBoy/LeetCodeGists/blob/master/14LongestCommonPrefix.md) - easy
