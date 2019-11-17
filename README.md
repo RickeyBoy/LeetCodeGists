@@ -36,6 +36,8 @@
 
 [22. Generate Parentheses 括号生成](https://github.com/RickeyBoy/LeetCodeGists/blob/master/22GenerateParentheses.md) - medium
 
+[23. Merge k Sorted Lists 合并K个排序链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/23MergekSortedLists.md) - hard
+
 [24. Swap Nodes in Pairs 两两交换链表中的节点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/24SwapNodesinPairs.md) - medium
 
 [26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/26RemoveDuplicatesfromSortedArray.md) - easy
