@@ -55,3 +55,5 @@
 [73. Set Matrix Zeroes 矩阵置零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/73SetMatrixZeroes.md) - medium
 
 [88. Merge Sorted Array 合并两个有序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/88MergeSortedArray.md) - easy
+
+[141. Linked List Cycle 环形链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/141LinkedListCycle.md) - easy
