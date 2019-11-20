@@ -6,6 +6,8 @@
 
 [Manacher Algorithm - 最长回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Manacher_Algorithm.md) (eg. 5)
 
+[特征根求解线性递推方程](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Eigenvalues.md)
+
 ### 做题记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
