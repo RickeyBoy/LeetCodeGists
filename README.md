@@ -6,7 +6,7 @@
 
 [Manacher Algorithm - 最长回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Manacher_Algorithm.md) (eg. 5)
 
-[特征根求解线性递推方程](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Eigenvalues.md)
+[特征根求解线性递推方程](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Eigenvalues.md)(latex 公式可以下载源文件使用 typora 查看)
 
 ### 做题记录
 
