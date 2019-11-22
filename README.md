@@ -8,6 +8,10 @@
 
 [特征根求解线性递推方程](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Eigenvalues.md)(latex 公式可以下载源文件使用 typora 查看)
 
+### 代码模板
+
+[Quick Sort - 快排](https://github.com/RickeyBoy/LeetCodeGists/blob/master/QuickSort.md)
+
 ### 做题记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
