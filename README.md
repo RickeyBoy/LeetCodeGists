@@ -56,6 +56,8 @@
 
 [32. Longest Valid Parentheses 最长有效括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/32LongestValidParentheses.md) - hard
 
+[33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/33SearchinRotatedSortedArray.md) - medium
+
 [53. Maximum Subarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/53MaximumSubarray.md) - easy
 
 [54. Spiral Matrix 螺旋矩阵](https://github.com/RickeyBoy/LeetCodeGists/blob/master/54SpiralMatrix.md) - medium
