@@ -8,6 +8,8 @@
 
 [特征根求解线性递推方程](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Eigenvalues.md)(latex 公式可以下载源文件使用 typora 查看)
 
+[Binary Exponentiation - 快速幂](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Binary_Exponentiation.md) (eg. 50)
+
 ### 代码模板
 
 [Quick Sort - 快排](https://github.com/RickeyBoy/LeetCodeGists/blob/master/QuickSort.md)
