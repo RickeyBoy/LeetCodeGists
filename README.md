@@ -60,6 +60,8 @@
 
 [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/33SearchinRotatedSortedArray.md) - medium
 
+[41. First Missing Positive 缺失的第一个正数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/41FirstMissingPositive.md) - hard
+
 [46. Permutations 全排列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/46Permutations.md) - medium
 
 [50. Pow(x,n)](https://github.com/RickeyBoy/LeetCodeGists/blob/master/50Pow(x,n).md) - medium
