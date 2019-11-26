@@ -78,6 +78,8 @@
 
 [73. Set Matrix Zeroes 矩阵置零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/73SetMatrixZeroes.md) - medium
 
+[78. Subsets 子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/78Subsets.md) - medium
+
 [88. Merge Sorted Array 合并两个有序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/88MergeSortedArray.md) - easy
 
 [121. Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/121BestTimetoBuyandSellStock.md) - easy
