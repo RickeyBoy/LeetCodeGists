@@ -94,6 +94,12 @@
 
 [94. Binary Tree Inorder Traversal 二叉树的中序遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/94BinaryTreeInorderTraversal.md) - medium
 
+[98. Validate Binary Search Tree 验证二叉搜索树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/98ValidateBinarySearchTree.md) - medium
+
+[101. Symmetric Tree 对称二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/101SymmetricTree.md) - easy
+
+[102. Binary Tree Level Order Traversal 二叉树的层次遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/102BinaryTreeLevelOrderTraversal.md) - medium
+
 [121. Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/121BestTimetoBuyandSellStock.md) - easy
 
 [141. Linked List Cycle 环形链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/141LinkedListCycle.md) - easy
