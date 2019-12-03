@@ -88,6 +88,8 @@
 
 [70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/70ClimbingStairs.md) - easy
 
+[72. Edit Distance 编辑距离](https://github.com/RickeyBoy/LeetCodeGists/blob/master/72EditDistance.md) - hard
+
 [73. Set Matrix Zeroes 矩阵置零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/73SetMatrixZeroes.md) - medium
 
 [78. Subsets 子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/78Subsets.md) - medium
