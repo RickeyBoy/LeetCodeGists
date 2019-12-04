@@ -108,6 +108,8 @@
 
 [105. Construct Binary Tree from Preorder and Inorder Traversal 从前序与中序遍历序列构造二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/105ConstructBinaryTreefromPreorderandInorderTraversal.md) - medium
 
+[120. Triangle 三角形最小路径和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/120Triangle.md) - medium
+
 [121. Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/121BestTimetoBuyandSellStock.md) - easy
 
 [141. Linked List Cycle 环形链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/141LinkedListCycle.md) - easy
