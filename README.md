@@ -94,6 +94,8 @@
 
 [78. Subsets 子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/78Subsets.md) - medium
 
+[84. Largest Rectangle in Histogram 柱状图中最大的矩形](https://github.com/RickeyBoy/LeetCodeGists/blob/master/84LargestRectangleinHistogram.md) - hard
+
 [88. Merge Sorted Array 合并两个有序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/88MergeSortedArray.md) - easy
 
 [94. Binary Tree Inorder Traversal 二叉树的中序遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/94BinaryTreeInorderTraversal.md) - medium
