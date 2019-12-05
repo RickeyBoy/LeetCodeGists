@@ -12,6 +12,7 @@
 
 [Morris Traversal - 莫里斯遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Morris_Traversal.md) (eg. 144, 94, 145)
 
+[Monotonic Stack - 单调栈](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Monotonic_Stack.md) (eg. 84,85)
 
 
 ### 代码模板
