@@ -119,6 +119,8 @@
 
 [121. Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/121BestTimetoBuyandSellStock.md) - easy
 
+[129. Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/129SumRoottoLeafNumbers.md) - medium
+
 [141. Linked List Cycle 环形链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/141LinkedListCycle.md) - easy
 
 [144. Binary Tree Preorder Traversal 二叉树的前序遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/144BinaryTreePreorderTraversal.md) - medium
