@@ -121,6 +121,8 @@
 
 [129. Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/129SumRoottoLeafNumbers.md) - medium
 
+[131. Palindrome Partitioning 分割回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/131PalindromePartitioning.md) - medium
+
 [141. Linked List Cycle 环形链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/141LinkedListCycle.md) - easy
 
 [144. Binary Tree Preorder Traversal 二叉树的前序遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/144BinaryTreePreorderTraversal.md) - medium
