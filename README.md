@@ -37,7 +37,7 @@
 
 [9. Palindrome Number 回文数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/9PalindromeNumber.md) - easy
 
-[10. Regular Expression Matching 回文数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/10RegularExpressionMatching.md) - hard
+[10. Regular Expression Matching 正则表达式的匹配](https://github.com/RickeyBoy/LeetCodeGists/blob/master/10RegularExpressionMatching.md) - hard
 
 [11. Container With Most Water 盛最多水的容器](https://github.com/RickeyBoy/LeetCodeGists/blob/master/11ContainerWithMostWater.md) - medium
 
