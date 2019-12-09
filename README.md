@@ -123,6 +123,8 @@
 
 [131. Palindrome Partitioning 分割回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/131PalindromePartitioning.md) - medium
 
+[132. Palindrome Partitioning II 分割回文串II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/132PalindromePartitioningII.md) - hard
+
 [141. Linked List Cycle 环形链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/141LinkedListCycle.md) - easy
 
 [144. Binary Tree Preorder Traversal 二叉树的前序遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/144BinaryTreePreorderTraversal.md) - medium
