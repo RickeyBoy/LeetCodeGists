@@ -19,7 +19,7 @@
 
 [Quick Sort - 快排](https://github.com/RickeyBoy/LeetCodeGists/blob/master/QuickSort.md)
 
-
+[Palindrome - 回文串判定](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Palindrome.md)
 
 ### 做题记录
 
