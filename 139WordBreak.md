@@ -14,13 +14,15 @@
 输出: true
 解释: 返回 true 因为 "leetcode" 可以被拆分成 "leet code"。
 ```
+
 示例 2：
-``
+```
 输入: s = "applepenapple", wordDict = ["apple", "pen"]
 输出: true
 解释: 返回 true 因为 "applepenapple" 可以被拆分成 "apple pen apple"。
-     注意你可以重复使用字典中的单词。
-   ```
+注意你可以重复使用字典中的单词。
+```
+
 示例 3：
 ```
 输入: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
