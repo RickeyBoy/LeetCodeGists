@@ -75,6 +75,8 @@
 
 [50. Pow(x,n)](https://github.com/RickeyBoy/LeetCodeGists/blob/master/50Pow(x,n).md) - medium
 
+[51. N-Queens](https://github.com/RickeyBoy/LeetCodeGists/blob/master/51N-Queens.md) - hard
+
 [53. Maximum Subarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/53MaximumSubarray.md) - easy
 
 [54. Spiral Matrix 螺旋矩阵](https://github.com/RickeyBoy/LeetCodeGists/blob/master/54SpiralMatrix.md) - medium
