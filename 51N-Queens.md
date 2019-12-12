@@ -29,7 +29,9 @@ n 皇后问题研究的是如何将 n 个皇后放置在 n×n 的棋盘上，�
 
 ### 解法：回溯
 
-用三个 set 来记录已经被占位的位置，这样做反而效率不够高。直接用 vector<Pair<int, int>> 来表示已有点的合集，每次新点通过 isValid 遍历检查整个 vector，貌似效率更高。
+用三个 set 来记录已经被占位的位置。
+
+也可以直接用 vector<Pair<int, int>> 来表示已有点的合集，每次新点通过 isValid 遍历检查整个 vector。
 
 ```cpp
 class Solution {
