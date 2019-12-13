@@ -139,3 +139,5 @@
 
 [145. Binary Tree Postorder Traversal 二叉树的后序遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/145BinaryTreePostorderTraversal.md) - hard
 
+[264. Ugly Number II 丑数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/264UglyNumberII.md) - medium
+
