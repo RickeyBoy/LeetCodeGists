@@ -123,6 +123,8 @@
 
 [121. Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/121BestTimetoBuyandSellStock.md) - easy
 
+[122. Best Time to Buy and Sell Stock II 买卖股票的最佳时机 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/122BestTimetoBuyandSellStockII.md) - easy
+
 [129. Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/129SumRoottoLeafNumbers.md) - medium
 
 [131. Palindrome Partitioning 分割回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/131PalindromePartitioning.md) - medium
