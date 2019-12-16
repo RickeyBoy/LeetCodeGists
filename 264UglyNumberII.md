@@ -1,4 +1,4 @@
-### 264. Ugly Number II.md
+### 264. Ugly Number II
 
 编写一个程序，找出第 n 个丑数。
 

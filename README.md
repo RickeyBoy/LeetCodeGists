@@ -139,5 +139,7 @@
 
 [145. Binary Tree Postorder Traversal 二叉树的后序遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/145BinaryTreePostorderTraversal.md) - hard
 
+[198. House Robber 打家劫舍](https://github.com/RickeyBoy/LeetCodeGists/blob/master/198HouseRobber.md) - easy
+
 [264. Ugly Number II 丑数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/264UglyNumberII.md) - medium
 
