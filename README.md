@@ -149,3 +149,5 @@
 
 [264. Ugly Number II 丑数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/264UglyNumberII.md) - medium
 
+[304. Range Sum Query 2D - Immutable 二维区域和检索 - 矩阵不可变](https://github.com/RickeyBoy/LeetCodeGists/blob/master/304RangeSumQuery2D_Immutable.md) - medium
+
