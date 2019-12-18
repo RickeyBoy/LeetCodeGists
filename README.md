@@ -143,6 +143,8 @@
 
 [145. Binary Tree Postorder Traversal 二叉树的后序遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/145BinaryTreePostorderTraversal.md) - hard
 
+[188. Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](https://github.com/RickeyBoy/LeetCodeGists/blob/master/188BestTimetoBuyandSellStockIV.md) - hard
+
 [198. House Robber 打家劫舍](https://github.com/RickeyBoy/LeetCodeGists/blob/master/198HouseRobber.md) - easy
 
 [213. House Robber II 打家劫舍 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/213HouseRobberII.md) - easy
