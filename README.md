@@ -159,3 +159,4 @@
 
 [322. Coin Change 零钱兑换](https://github.com/RickeyBoy/LeetCodeGists/blob/master/322CoinChange.md) - medium
 
+[967. Numbers With Same Consecutive Differences 连续差相同的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/967NumbersWithSameConsecutiveDifferences.md) - medium
