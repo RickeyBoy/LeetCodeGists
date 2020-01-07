@@ -149,6 +149,8 @@
 
 [213. House Robber II 打家劫舍 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/213HouseRobberII.md) - easy
 
+[207. Course Schedule 课程表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/207CourseSchedule.md) - medium
+
 [264. Ugly Number II 丑数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/264UglyNumberII.md) - medium
 
 [303. Range Sum Query - Immutable 区域和检索 - 数组不可变](https://github.com/RickeyBoy/LeetCodeGists/blob/master/303RangeSumQuery-Immutable.md) - easy
