@@ -65,3 +65,38 @@ public:
     }
 };
 ```
+
+### 优化：存一下每个 node 对应的 edges
+
+```cpp
+class Solution {
+public:
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        queue<int> q;
+        vector<int> in_deg = vector(numCourses,0);
+        vector<vector<int>> edges = vector(numCourses, vector<int>()); // store node's edges
+        int edgeCount = 0;
+        // get 
+        for(int i=0;i<prerequisites.size();i++) {
+            in_deg[prerequisites[i][1]]++;
+            edges[prerequisites[i][0]].push_back(prerequisites[i][1]);
+        }
+        for(int i=0;i<numCourses;i++) {
+            if(in_deg[i]==0) q.push(i);
+        }
+        while(!q.empty()) {
+            int node = q.front();
+            q.pop();
+            for(auto item : edges[node]) {
+                // find edges that start from node
+                if(--in_deg[item]==0) {
+                    q.push(item);
+                }
+                edgeCount++;
+            }
+        }
+        if(edgeCount<prerequisites.size()) return false;
+        return true;
+    }
+};
+```
