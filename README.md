@@ -14,14 +14,14 @@
 
 [Monotonic Stack - 单调栈](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Monotonic_Stack.md) (eg. 42,84,85)
 
+[Topological sorting - 拓扑排序](https://github.com/RickeyBoy/LeetCodeGists/blob/master/TopologicalSorting.md)(eg. 207,210)
+
 
 ### 代码模板
 
 [Quick Sort - 快排](https://github.com/RickeyBoy/LeetCodeGists/blob/master/QuickSort.md)
 
 [Palindrome - 回文串判定](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Palindrome.md)
-
-[Topological sorting - TODO](https://github.com/RickeyBoy/LeetCodeGists/blob/master/TopologicalSorting.md)
 
 ### 做题记录
 
