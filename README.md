@@ -16,6 +16,7 @@
 
 [Topological sorting - 拓扑排序](https://github.com/RickeyBoy/LeetCodeGists/blob/master/TopologicalSorting.md)(eg. 207,210)
 
+[Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/UnionFind_Algorithm.md)(eg. 130)
 
 ### 代码模板
 
