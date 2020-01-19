@@ -23,6 +23,8 @@
 
 [Palindrome - 回文串判定](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Palindrome.md)
 
+[Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/UnionFind.md)
+
 ### 做题记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
