@@ -131,6 +131,8 @@
 
 [129. Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/129SumRoottoLeafNumbers.md) - medium
 
+[130. Surrounded Regions 被围绕的区域](https://github.com/RickeyBoy/LeetCodeGists/blob/master/130SurroundedRegions.md) - medium
+
 [131. Palindrome Partitioning 分割回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/131PalindromePartitioning.md) - medium
 
 [132. Palindrome Partitioning II 分割回文串II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/132PalindromePartitioningII.md) - hard
