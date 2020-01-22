@@ -181,3 +181,5 @@
 [967. Numbers With Same Consecutive Differences 连续差相同的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/967NumbersWithSameConsecutiveDifferences.md) - medium
 
 [990. Satisfiability of Equality Equations 等式方程的可满足性](https://github.com/RickeyBoy/LeetCodeGists/blob/master/990SatisfiabilityofEqualityEquations.md) - medium
+
+[1326. Minimum Number of Taps to Open to Water a Garden 灌溉花园的最少水龙头数目](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1326MinimumNumberofTapstoOpentoWateraGarden.md) - hard
