@@ -68,6 +68,8 @@
 
 [26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/26RemoveDuplicatesfromSortedArray.md) - easy
 
+[27. Remove Element 移除元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/27RemoveElement.md) - easy
+
 [28. Implement strStr() 实现 strStr()](https://github.com/RickeyBoy/LeetCodeGists/blob/master/28ImplementstrStr().md) - easy
 
 [32. Longest Valid Parentheses 最长有效括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/32LongestValidParentheses.md) - hard
