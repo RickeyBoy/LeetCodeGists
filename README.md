@@ -38,6 +38,8 @@
 
 [5. Longest Palindromic Substring 最长回文子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/5LongestPalindromicSubstring.md) - medium
 
+[6. ZigZag Conversion Z字形变换](https://github.com/RickeyBoy/LeetCodeGists/blob/master/6ZigZagConversion.md) - medium
+
 [7. Reverse Integer 整数反转](https://github.com/RickeyBoy/LeetCodeGists/blob/master/7ReverseInteger.md) - easy
 
 [9. Palindrome Number 回文数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/9PalindromeNumber.md) - easy
