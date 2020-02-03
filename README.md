@@ -188,4 +188,6 @@
 
 [990. Satisfiability of Equality Equations 等式方程的可满足性](https://github.com/RickeyBoy/LeetCodeGists/blob/master/990SatisfiabilityofEqualityEquations.md) - medium
 
+[1267. Count Servers that Communicate 统计参与通信的服务器](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1267CountServersthatCommunicate.md) - medium
+
 [1326. Minimum Number of Taps to Open to Water a Garden 灌溉花园的最少水龙头数目](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1326MinimumNumberofTapstoOpentoWateraGarden.md) - hard
