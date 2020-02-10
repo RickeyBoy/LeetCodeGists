@@ -182,6 +182,8 @@
 
 [785. Is Graph Bipartite? 判断二分图](https://github.com/RickeyBoy/LeetCodeGists/blob/master/785IsGraphBipartite.md) - medium
 
+[791. Custom Sort String 自定义字符串排序](https://github.com/RickeyBoy/LeetCodeGists/blob/master/791CustomSortString.md) - medium
+
 [841. Keys and Rooms 钥匙和房间](https://github.com/RickeyBoy/LeetCodeGists/blob/master/841KeysandRooms.md) - medium
 
 [959. Regions Cut By Slashes 由斜杠划分区域](https://github.com/RickeyBoy/LeetCodeGists/blob/master/959RegionsCutBySlashes.md) - medium
