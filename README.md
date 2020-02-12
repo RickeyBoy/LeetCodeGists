@@ -26,7 +26,11 @@
 
 [Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/UnionFind.md)
 
-### 做题记录
+### 剑指 offer
+
+[3. 数组中重复的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer03.md) - easy
+
+### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
 
