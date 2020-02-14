@@ -30,6 +30,8 @@
 
 [3. 数组中重复的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer03.md) - easy
 
+[4. 二维数组中的查找](https://github.com/RickeyBoy/LeetCodeGists/blob/master/240Searcha2DMatrixII.md) - easy（与 240 题相同）
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
@@ -169,6 +171,8 @@
 [207. Course Schedule 课程表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/207CourseSchedule.md) - medium
 
 [210. Course Schedule II 课程表 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/210CourseScheduleII.md) - medium
+
+[240. Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/240Searcha2DMatrixII.md) - medium
 
 [264. Ugly Number II 丑数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/264UglyNumberII.md) - medium
 
