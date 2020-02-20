@@ -2,7 +2,7 @@
 
 ### 算法笔记
 
-[KMP Algorithm - 字符串匹配](https://github.com/RickeyBoy/LeetCodeGists/blob/master/KMPAlgorithm.md) (eg. 28)
+[KMP Algorithm - 字符串匹配](https://github.com/RickeyBoy/LeetCodeGists/blob/master/KMP_Algorithm.md) (eg. 28)
 
 [Manacher Algorithm - 最长回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Manacher_Algorithm.md) (eg. 5)
 
