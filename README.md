@@ -32,6 +32,8 @@
 
 [4. 二维数组中的查找](https://github.com/RickeyBoy/LeetCodeGists/blob/master/240Searcha2DMatrixII.md) - easy（与 240 题相同）
 
+[面试题05. 替换空格](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer05.md) - easy
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
