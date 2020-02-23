@@ -34,6 +34,8 @@
 
 [面试题05. 替换空格](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer05.md) - easy
 
+[面试题06. 从尾到头打印链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer06.md) - easy
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
