@@ -36,6 +36,8 @@
 
 [面试题06. 从尾到头打印链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer06.md) - easy
 
+[面试题07. 重建二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/105ConstructBinaryTreefromPreorderandInorderTraversal.md) - medium（与 105 题相同）
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
