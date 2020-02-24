@@ -38,6 +38,8 @@
 
 [面试题07. 重建二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/105ConstructBinaryTreefromPreorderandInorderTraversal.md) - medium（与 105 题相同）
 
+[面试题09. 用两个栈实现队列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer09.md) - easy
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
