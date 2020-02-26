@@ -42,6 +42,7 @@
 
 [面试题10- I. 斐波那契数列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer10_1.md) - easy
 
+[面试题10- II. 青蛙跳台阶问题](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer10_2.md) - easy
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
