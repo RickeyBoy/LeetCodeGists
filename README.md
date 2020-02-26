@@ -28,9 +28,9 @@
 
 ### 剑指 offer
 
-[3. 数组中重复的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer03.md) - easy
+[面试题03. 数组中重复的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer03.md) - easy
 
-[4. 二维数组中的查找](https://github.com/RickeyBoy/LeetCodeGists/blob/master/240Searcha2DMatrixII.md) - easy（与 240 题相同）
+[面试题04. 二维数组中的查找](https://github.com/RickeyBoy/LeetCodeGists/blob/master/240Searcha2DMatrixII.md) - easy（与 240 题相同）
 
 [面试题05. 替换空格](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer05.md) - easy
 
@@ -43,6 +43,9 @@
 [面试题10- I. 斐波那契数列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer10_1.md) - easy
 
 [面试题10- II. 青蛙跳台阶问题](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer10_2.md) - easy
+
+[面试题11. 旋转数组的最小数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/154FindMinimuminRotatedSortedArrayII.md) - easy（与 154 题相同）
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
