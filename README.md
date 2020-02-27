@@ -132,6 +132,8 @@
 
 [78. Subsets 子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/78Subsets.md) - medium
 
+[79. Word Search 单词搜索](https://github.com/RickeyBoy/LeetCodeGists/blob/master/79WordSearch.md) - medium
+
 [84. Largest Rectangle in Histogram 柱状图中最大的矩形](https://github.com/RickeyBoy/LeetCodeGists/blob/master/84LargestRectangleinHistogram.md) - hard
 
 [85. Maximal Rectangle 最大矩形](https://github.com/RickeyBoy/LeetCodeGists/blob/master/85MaximalRectangle.md) - hard
