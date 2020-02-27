@@ -48,6 +48,8 @@
 
 [面试题12. 矩阵中的路径](https://github.com/RickeyBoy/LeetCodeGists/blob/master/79WordSearch.md) - easy（与 79 题相同）
 
+[面试题13. 机器人的运动范围](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer13.md) - medium（与 79 题相同）
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
