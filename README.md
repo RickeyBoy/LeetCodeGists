@@ -50,6 +50,8 @@
 
 [面试题13. 机器人的运动范围](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer13.md) - medium（与 79 题相同）
 
+[面试题14- I. 剪绳子](https://github.com/RickeyBoy/LeetCodeGists/blob/master/343IntegerBreak.md) - medium（与 343 题相同）
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy

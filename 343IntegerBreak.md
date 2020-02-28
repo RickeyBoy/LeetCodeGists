@@ -24,13 +24,14 @@ public:
         if(n == 2) return 1;
         if(n == 3) return 2;
         int a = 1;
+        // 拆分成尽量多的 3
         int count = n/3;
         if(n%3==1) {
-        // 拆成 4 及尽量多的 3
             return pow(3,count-1)*4;
+        } else if (n%3==2) {
+            return pow(3,count)*2;
         } else {
-        // 拆分成尽量多的 3
-            return pow(3,count)*(n%3);
+            return pow(3,count);
         }
     }
 };
