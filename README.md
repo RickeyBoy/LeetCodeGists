@@ -198,6 +198,8 @@
 
 [210. Course Schedule II 课程表 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/210CourseScheduleII.md) - medium
 
+[225. Implement Stack using Queues 用队列实现栈](https://github.com/RickeyBoy/LeetCodeGists/blob/master/225ImplementStackusingQueues.md) - easy
+
 [240. Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/240Searcha2DMatrixII.md) - medium
 
 [264. Ugly Number II 丑数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/264UglyNumberII.md) - medium
