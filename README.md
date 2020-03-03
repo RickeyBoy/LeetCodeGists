@@ -52,6 +52,10 @@
 
 [面试题14- I. 剪绳子](https://github.com/RickeyBoy/LeetCodeGists/blob/master/343IntegerBreak.md) - medium（与 343 题相同）
 
+### 程序员面试金典
+
+[面试题 10.01. 合并排序的数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/gold1001.md) - easy（与 343 题相同）
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
