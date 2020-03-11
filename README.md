@@ -244,6 +244,8 @@
 
 [1103. Distribute Candies to People 分糖果 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1103DistributeCandiestoPeople.md) - easy
 
+[1013. Partition Array Into Three Parts With Equal Sum 将数组分成和相等的三个部分](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1013PartitionArrayIntoThreePartsWithEqualSum.md) - easy
+
 [1267. Count Servers that Communicate 统计参与通信的服务器](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1267CountServersthatCommunicate.md) - medium
 
 [1326. Minimum Number of Taps to Open to Water a Garden 灌溉花园的最少水龙头数目](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1326MinimumNumberofTapstoOpentoWateraGarden.md) - hard
