@@ -58,6 +58,8 @@
 
 [面试题16. 数值的整数次方](https://github.com/RickeyBoy/LeetCodeGists/blob/master/50Pow(x,n).md) - medium（与 50 题相同）
 
+[面试题17. 打印从1到最大的n位数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer17.md) - easy
+
 ### 程序员面试金典
 
 [面试题 10.01. 合并排序的数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/gold1001.md) - easy（与 343 题相同）
