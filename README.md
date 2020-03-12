@@ -56,6 +56,8 @@
 
 [面试题15. 二进制中1的个数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/191Numberof1Bits.md) - easy（与 191 题相同）
 
+[面试题16. 数值的整数次方](https://github.com/RickeyBoy/LeetCodeGists/blob/master/50Pow(x,n).md) - medium（与 50 题相同）
+
 ### 程序员面试金典
 
 [面试题 10.01. 合并排序的数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/gold1001.md) - easy（与 343 题相同）
