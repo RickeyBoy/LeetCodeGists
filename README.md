@@ -54,6 +54,8 @@
 
 [面试题14- II. 剪绳子 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer14_2.md) - medium
 
+[面试题15. 二进制中1的个数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/191Numberof1Bits.md) - easy（与 191 题相同）
+
 ### 程序员面试金典
 
 [面试题 10.01. 合并排序的数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/gold1001.md) - easy（与 343 题相同）
@@ -195,6 +197,8 @@
 [154. Find Minimum in Rotated Sorted Array II 寻找旋转排序数组中的最小值 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/154FindMinimuminRotatedSortedArrayII.md) - hard
 
 [188. Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](https://github.com/RickeyBoy/LeetCodeGists/blob/master/188BestTimetoBuyandSellStockIV.md) - hard
+
+[191. Number of 1 Bits  位1的个数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/191Numberof1Bits.md) - easy
 
 [198. House Robber 打家劫舍](https://github.com/RickeyBoy/LeetCodeGists/blob/master/198HouseRobber.md) - easy
 
