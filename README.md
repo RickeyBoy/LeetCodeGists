@@ -18,7 +18,7 @@
 
 [Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/UnionFind_Algorithm.md)(eg. 130)
 
-[Boyer-Moore Voting Algorithm - 摩尔投票算法](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Boyer_Moore_Voting_Algorithm..md)(eg. 169)
+[Boyer-Moore Voting Algorithm - 摩尔投票算法](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Boyer_Moore_Voting_Algorithm..md)(eg. 169, 229)
 
 ### 代码模板
 
@@ -219,6 +219,8 @@
 [210. Course Schedule II 课程表 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/210CourseScheduleII.md) - medium
 
 [225. Implement Stack using Queues 用队列实现栈](https://github.com/RickeyBoy/LeetCodeGists/blob/master/225ImplementStackusingQueues.md) - easy
+
+[229. Majority Element II 求众数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/229MajorityElementII.md) - medium
 
 [240. Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/240Searcha2DMatrixII.md) - medium
 

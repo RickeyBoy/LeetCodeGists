@@ -10,3 +10,4 @@
 ### 相关的题目：
 
 [169. Majority Element 多数元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/169MajorityElement.md)
+[229. Majority Element II 求众数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/229MajorityElementII.md)
