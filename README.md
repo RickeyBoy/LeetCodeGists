@@ -18,6 +18,8 @@
 
 [Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/UnionFind_Algorithm.md)(eg. 130)
 
+[Boyer-Moore Voting Algorithm - 摩尔投票算法](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Boyer_Moore_Voting_Algorithm..md)(eg. 169)
+
 ### 代码模板
 
 [Quick Sort - 快排](https://github.com/RickeyBoy/LeetCodeGists/blob/master/QuickSort.md)
@@ -199,6 +201,8 @@
 [153. Find Minimum in Rotated Sorted Array 寻找旋转排序数组中的最小值](https://github.com/RickeyBoy/LeetCodeGists/blob/master/153FindMinimuminRotatedSortedArray.md) - medium
 
 [154. Find Minimum in Rotated Sorted Array II 寻找旋转排序数组中的最小值 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/154FindMinimuminRotatedSortedArrayII.md) - hard
+
+[169. Majority Element 多数元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/169MajorityElement.md) - easy
 
 [188. Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](https://github.com/RickeyBoy/LeetCodeGists/blob/master/188BestTimetoBuyandSellStockIV.md) - hard
 
