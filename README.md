@@ -242,6 +242,8 @@
 
 [543. Diameter of Binary Tree 二叉树的直径](https://github.com/RickeyBoy/LeetCodeGists/blob/master/543DiameterofBinaryTree.md) - easy
 
+[695. Max Area of Island 岛屿的最大面积](https://github.com/RickeyBoy/LeetCodeGists/blob/master/695MaxAreaofIsland.md) - medium
+
 [765. Couples Holding Hands 情侣牵手](https://github.com/RickeyBoy/LeetCodeGists/blob/master/765CouplesHoldingHands.md) - hard
 
 [785. Is Graph Bipartite? 判断二分图](https://github.com/RickeyBoy/LeetCodeGists/blob/master/785IsGraphBipartite.md) - medium
