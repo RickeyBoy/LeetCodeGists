@@ -66,6 +66,8 @@
 
 [面试题 10.01. 合并排序的数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/gold1001.md) - easy（与 343 题相同）
 
+[面试题 01.06. 字符串压缩](https://github.com/RickeyBoy/LeetCodeGists/blob/master/interview01_06.md) - easy
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
