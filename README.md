@@ -62,6 +62,8 @@
 
 [面试题17. 打印从1到最大的n位数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer17.md) - easy
 
+[面试题18. 删除链表的节点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer18.md) - easy
+
 ### 程序员面试金典
 
 [面试题 10.01. 合并排序的数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/gold1001.md) - easy（与 343 题相同）
