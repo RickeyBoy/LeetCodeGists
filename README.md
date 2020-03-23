@@ -258,6 +258,8 @@
 
 [841. Keys and Rooms 钥匙和房间](https://github.com/RickeyBoy/LeetCodeGists/blob/master/841KeysandRooms.md) - medium
 
+[876. Middle of the Linked List 链表的中间结点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/876MiddleoftheLinkedList.md) - easy
+
 [959. Regions Cut By Slashes 由斜杠划分区域](https://github.com/RickeyBoy/LeetCodeGists/blob/master/959RegionsCutBySlashes.md) - medium
 
 [967. Numbers With Same Consecutive Differences 连续差相同的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/967NumbersWithSameConsecutiveDifferences.md) - medium
