@@ -70,6 +70,8 @@
 
 [面试题 01.06. 字符串压缩](https://github.com/RickeyBoy/LeetCodeGists/blob/master/interview01_06.md) - easy
 
+[面试题 17.16. 按摩师](https://github.com/RickeyBoy/LeetCodeGists/blob/master/interview17_16.md) - easy
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1TwoSum.md) - easy
