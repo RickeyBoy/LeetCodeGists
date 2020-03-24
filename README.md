@@ -20,6 +20,8 @@
 
 [Boyer-Moore Voting Algorithm - 摩尔投票算法](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Boyer_Moore_Voting_Algorithm..md)(eg. 169, 229)
 
+[Bezouts lemma - 裴蜀定理](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Bezouts_lemma..md)(eg. 365)
+
 ### 代码模板
 
 [Quick Sort - 快排](https://github.com/RickeyBoy/LeetCodeGists/blob/master/QuickSort.md)
