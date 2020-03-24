@@ -244,6 +244,8 @@
 
 [343. Integer Break 整数拆分](https://github.com/RickeyBoy/LeetCodeGists/blob/master/343IntegerBreak.md) - medium
 
+[365. Water and Jug Problem 水壶问题](https://github.com/RickeyBoy/LeetCodeGists/blob/master/365WaterandJugProblem.md) - easy
+
 [409. Longest Palindrome 最长回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/409LongestPalindrome.md) - easy
 
 [509. Fibonacci Number 斐波那契数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/509FibonacciNumber.md) - easy
