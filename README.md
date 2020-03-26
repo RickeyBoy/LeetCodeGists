@@ -148,6 +148,8 @@
 
 [64. Minimum Path Sum 最小路径和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/64MinimumPathSum.md) - medium
 
+[65. Valid Number 有效数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/65ValidNumber.md) - hard
+
 [66. Plus One 加一](https://github.com/RickeyBoy/LeetCodeGists/blob/master/66PlusOne.md) - easy
 
 [69. Sqrt(x) x 的平方根](https://github.com/RickeyBoy/LeetCodeGists/blob/master/69Sqrt(x).md) - easy
