@@ -66,6 +66,8 @@
 
 [面试题18. 删除链表的节点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer18.md) - easy
 
+[面试题62. 圆圈中最后剩下的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer62.md) - easy（约瑟夫环）
+
 ### 程序员面试金典
 
 [面试题 10.01. 合并排序的数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/gold1001.md) - easy（与 343 题相同）
