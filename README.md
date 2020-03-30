@@ -66,6 +66,10 @@
 
 [面试题18. 删除链表的节点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer18.md) - easy
 
+[面试题19. 正则表达式匹配](https://github.com/RickeyBoy/LeetCodeGists/blob/master/10RegularExpressionMatching.md) - hard（与 10 题相同）
+
+[面试题20. 表示数值的字符串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/65ValidNumber.md) - medium（与 65 题相同）
+
 [面试题62. 圆圈中最后剩下的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer62.md) - easy（约瑟夫环）
 
 ### 程序员面试金典
