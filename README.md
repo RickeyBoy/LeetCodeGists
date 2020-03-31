@@ -72,6 +72,8 @@
 
 [面试题21. 调整数组顺序使奇数位于偶数前面](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer21.md) - easy
 
+[面试题22. 链表中倒数第k个节点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer22.md) - easy
+
 [面试题62. 圆圈中最后剩下的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer62.md) - easy（约瑟夫环）
 
 ### 程序员面试金典
