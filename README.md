@@ -102,6 +102,8 @@
 
 [7. Reverse Integer 整数反转](https://github.com/RickeyBoy/LeetCodeGists/blob/master/7ReverseInteger.md) - easy
 
+[8. String to Integer (atoi) 字符串转换整数 (atoi)](https://github.com/RickeyBoy/LeetCodeGists/blob/master/8StringtoInteger(atoi).md) - medium
+
 [9. Palindrome Number 回文数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/9PalindromeNumber.md) - easy
 
 [10. Regular Expression Matching 正则表达式的匹配](https://github.com/RickeyBoy/LeetCodeGists/blob/master/10RegularExpressionMatching.md) - hard
