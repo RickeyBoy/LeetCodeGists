@@ -80,9 +80,11 @@
 
 ### 程序员面试金典
 
-[面试题 10.01. 合并排序的数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/gold1001.md) - easy（与 343 题相同）
-
 [面试题 01.06. 字符串压缩](https://github.com/RickeyBoy/LeetCodeGists/blob/master/interview01_06.md) - easy
+
+[面试题 01.07. 旋转矩阵](https://github.com/RickeyBoy/LeetCodeGists/blob/master/interview01_07.md) - medium
+
+[面试题 10.01. 合并排序的数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/gold1001.md) - easy（与 343 题相同）
 
 [面试题 17.16. 按摩师](https://github.com/RickeyBoy/LeetCodeGists/blob/master/interview17_16.md) - easy
 
