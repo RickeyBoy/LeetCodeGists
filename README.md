@@ -76,6 +76,8 @@
 
 [面试题24. 反转链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/206ReverseLinkedList.md) - easy（与 206 题相同）
 
+[面试题25. 合并两个排序的链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/21MergeTwoSortedLists.md) - easy（与 21 题相同）
+
 [面试题62. 圆圈中最后剩下的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/offer62.md) - easy（约瑟夫环）
 
 ### 程序员面试金典
