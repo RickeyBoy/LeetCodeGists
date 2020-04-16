@@ -1,5 +1,9 @@
 # LeetCodeGists
 
+### Rickey's Roadmap
+
+[我的分类笔记和刷题路径](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Roadmap.md) 
+
 ### 算法笔记
 
 [KMP Algorithm - 字符串匹配](https://github.com/RickeyBoy/LeetCodeGists/blob/master/KMP_Algorithm.md) (eg. 28)
