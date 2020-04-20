@@ -20,7 +20,7 @@
 
 [Topological sorting - 拓扑排序](https://github.com/RickeyBoy/LeetCodeGists/blob/master/TopologicalSorting.md)(eg. 207,210)
 
-[Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/UnionFind_Algorithm.md)(eg. 130)
+[Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/UnionFind_Algorithm.md)(eg. 130,200)
 
 [Boyer-Moore Voting Algorithm - 摩尔投票算法](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Boyer_Moore_Voting_Algorithm..md)(eg. 169, 229)
 
@@ -243,6 +243,8 @@
 [191. Number of 1 Bits  位1的个数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/191Numberof1Bits.md) - easy
 
 [198. House Robber 打家劫舍](https://github.com/RickeyBoy/LeetCodeGists/blob/master/198HouseRobber.md) - easy
+
+[200. Number of Islands 岛屿数量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/200NumberofIslands.md) - medium
 
 [213. House Robber II 打家劫舍 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/213HouseRobberII.md) - easy
 

@@ -11,6 +11,10 @@
 
 ### 1. Pattern: Sliding window，滑动窗口类型
 
+https://juejin.im/post/5cccc9d1f265da0384129e5f
+
+掘金：438、76、159、340、3、567、992、424、239、480
+
 经典题目：Maximum Sum Subarray of Size K (easy)Smallest Subarray with a given sum (easy)Longest Substring with K Distinct Characters (medium)Fruits into Baskets (medium)No-repeat Substring (hard)Longest Substring with Same Letters after Replacement (hard)Longest Subarray with Ones after Replacement (hard)
 
 ### 2. Pattern: two points, 双指针类型
