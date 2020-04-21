@@ -11,6 +11,27 @@
 
 ### 1. Pattern: Sliding window，滑动窗口类型
 
+##### 分类
+
+* 固定窗口大小
+* 可变窗口，求解最大or最小的满足条件的窗口
+
+##### 求解
+
+* 固定窗口：同时移动左右指针，保证窗口宽度一定
+* 可变窗口：分别移动左右指针
+* 移动后需要及时更新状态位、最优解等
+
+##### 关键字
+
+“连续子串 xxxx”、“连续子数组 xxxx”
+
+##### 例题
+
+[438. Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/438FindAllAnagramsinaString.md) - medium
+
+---
+
 https://juejin.im/post/5cccc9d1f265da0384129e5f
 
 掘金：438、76、159、340、3、567、992、424、239、480

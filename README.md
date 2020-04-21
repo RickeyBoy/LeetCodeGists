@@ -278,6 +278,8 @@
 
 [409. Longest Palindrome 最长回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/409LongestPalindrome.md) - easy
 
+[438. Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/438FindAllAnagramsinaString.md) - medium
+
 [445. Add Two Numbers II 两数相加 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/445AddTwoNumbersII.md) - medium
 
 [509. Fibonacci Number 斐波那契数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/509FibonacciNumber.md) - easy
