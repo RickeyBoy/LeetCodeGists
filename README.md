@@ -184,6 +184,8 @@
 
 [73. Set Matrix Zeroes 矩阵置零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/73SetMatrixZeroes.md) - medium
 
+[76. Minimum Window Substring 最小覆盖子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/76MinimumWindowSubstring.md) - hard
+
 [78. Subsets 子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/78Subsets.md) - medium
 
 [79. Word Search 单词搜索](https://github.com/RickeyBoy/LeetCodeGists/blob/master/79WordSearch.md) - medium

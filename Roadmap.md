@@ -26,9 +26,44 @@
 
 “连续子串 xxxx”、“连续子数组 xxxx”
 
+##### 模板
+
+```cpp
+/* 滑动窗口算法框架 */
+void slidingWindow(string s, string t) {
+    unordered_map<char, int> need, window; // 有时可以直接用 vector 替代
+  	int left = 0, right = 0;
+    int sameCount = 0; 
+  	// 初始化
+    for (char c : t) need[c]++;
+    while (right < s.size()) {
+        // 右移窗口
+        right++;
+        ...
+
+        /*** debug 输出的位置 ***/
+        printf("window: [%d, %d)\n", left, right);
+        /********************/
+      
+        // 判断左侧窗口是否要收缩
+        while (window needs shrink) {
+            // 左移窗口
+            left++;
+            ...
+        }
+    }
+}
+```
+
 ##### 例题
 
-[438. Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/438FindAllAnagramsinaString.md) - medium
+- [438. Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/438FindAllAnagramsinaString.md) - medium
+
+- [76. Minimum Window Substring 最小覆盖子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/76MinimumWindowSubstring.md) - hard
+
+##### 参考资料
+
+- [labuladong - 滑动窗口](https://mp.weixin.qq.com/s/ioKXTMZufDECBUwRRp3zaA)
 
 ---
 
