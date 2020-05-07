@@ -308,6 +308,8 @@
 
 [990. Satisfiability of Equality Equations 等式方程的可满足性](https://github.com/RickeyBoy/LeetCodeGists/blob/master/990SatisfiabilityofEqualityEquations.md) - medium
 
+[992. Subarrays with K Different Integers K 个不同整数的子数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/992SubarrayswithKDifferentIntegers.md) - hard
+
 [994. Rotting Oranges 腐烂的橘子](https://github.com/RickeyBoy/LeetCodeGists/blob/master/994RottingOranges.md) - easy
 
 [1103. Distribute Candies to People 分糖果 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/1103DistributeCandiestoPeople.md) - easy

@@ -61,6 +61,7 @@ void slidingWindow(string s, string t) {
 - [76. Minimum Window Substring 最小覆盖子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/76MinimumWindowSubstring.md) - hard
 - [3. Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/3LongestSubstringWithoutRepeatingCharacters.md) - medium
 - [567. Permutation in String 字符串的排列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/567PermutationinString.md) - medium
+- [992. Subarrays with K Different Integers K 个不同整数的子数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/992SubarrayswithKDifferentIntegers.md) - hard
 
 ##### 参考资料
 
