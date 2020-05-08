@@ -290,6 +290,8 @@
 
 [567. Permutation in String 字符串的排列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/567PermutationinString.md) - medium
 
+[572. Subtree of Another Tree 另一个树的子树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/572SubtreeofAnotherTree.md) - easy
+
 [695. Max Area of Island 岛屿的最大面积](https://github.com/RickeyBoy/LeetCodeGists/blob/master/695MaxAreaofIsland.md) - medium
 
 [765. Couples Holding Hands 情侣牵手](https://github.com/RickeyBoy/LeetCodeGists/blob/master/765CouplesHoldingHands.md) - hard
