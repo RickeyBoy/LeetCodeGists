@@ -85,10 +85,11 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 ##### 例题
 
 - [141. Linked List Cycle 环形链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/141LinkedListCycle.md) - easy
+- [142. Linked List Cycle II 环形链表 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/142LinkedListCycleII.md) - medium
 
 经典题目：
 
-Start of LinkedList Cycle (medium)
+
 Happy Number (medium)
 Middle of the LinkedList (easy)
 
