@@ -9,18 +9,18 @@
 
 ## 基础类型
 
-### 1. Pattern: Sliding window，滑动窗口类型
+### 1. Sliding window，滑动窗口类型
 
 ##### 分类
 
-* 固定窗口大小
-* 可变窗口，求解最大or最小的满足条件的窗口
+- 固定窗口大小
+- 可变窗口，求解最大or最小的满足条件的窗口
 
 ##### 求解
 
-* 固定窗口：同时移动左右指针，保证窗口宽度一定
-* 可变窗口：分别移动左右指针
-* 移动后需要及时更新状态位、最优解等
+- 固定窗口：同时移动左右指针，保证窗口宽度一定
+- 可变窗口：分别移动左右指针
+- 移动后需要及时更新状态位、最优解等
 
 ##### 关键字
 
@@ -73,23 +73,28 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 
 掘金：438、76、159、340、3、567、992、424、239、480
 
-经典题目：Maximum Sum Subarray of Size K (easy)Smallest Subarray with a given sum (easy)Longest Substring with K Distinct Characters (medium)Fruits into Baskets (medium)No-repeat Substring (hard)Longest Substring with Same Letters after Replacement (hard)Longest Subarray with Ones after Replacement (hard)
+### 2. two points，双指针类型
 
-### 2. Pattern: two points, 双指针类型
+##### 分类
 
-经典题目：Pair with Target Sum (easy)Remove Duplicates (easy)Squaring a Sorted Array (easy)Triplet Sum to Zero (medium)Triplet Sum Close to Target (medium)Triplets with Smaller Sum (medium)Subarrays with Product Less than a Target (medium)Dutch National Flag Problem (medium)
+- （同向）快慢指针：链表、环形数组
+- （反向）双向指针：线性数组字符串等
+- （同向）滑动窗口：独立章节分析
+- （反向）二分查找：独立章节分析
 
-### 3. Pattern: Fast & Slow pointers, 快慢指针类型
+##### 例题
+
+- [141. Linked List Cycle 环形链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/141LinkedListCycle.md) - easy
 
 经典题目：
 
-LinkedList Cycle (easy)
-
 Start of LinkedList Cycle (medium)
-
 Happy Number (medium)
-
 Middle of the LinkedList (easy)
+
+Pair with Target Sum (easy)Remove Duplicates (easy)Squaring a Sorted Array (easy)Triplet Sum to Zero (medium)Triplet Sum Close to Target (medium)Triplets with Smaller Sum (medium)Subarrays with Product Less than a Target (medium)Dutch National Flag Problem (medium)
+
+
 
 ### 4. Pattern: Merge Intervals，区间合并类型
 
