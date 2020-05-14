@@ -22,7 +22,7 @@
 
 [Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/UnionFind_Algorithm.md)(eg. 130,200)
 
-[Boyer-Moore Voting Algorithm - 摩尔投票算法](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Boyer_Moore_Voting_Algorithm..md)(eg. 169, 229)
+[Boyer-Moore Voting Algorithm - 摩尔投票算法](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Boyer_Moore_Voting_Algorithm.md)(eg. 169, 229)
 
 [Bezouts lemma - 裴蜀定理](https://github.com/RickeyBoy/LeetCodeGists/blob/master/Bezouts_lemma..md)(eg. 365)
 
