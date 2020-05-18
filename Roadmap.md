@@ -91,7 +91,18 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 
 经典题目：
 
-Pair with Target Sum (easy)Remove Duplicates (easy)Squaring a Sorted Array (easy)Triplet Sum to Zero (medium)Triplet Sum Close to Target (medium)Triplets with Smaller Sum (medium)Subarrays with Product Less than a Target (medium)Dutch National Flag Problem (medium)
+001 Two Sum
+015. 3Sum
+16. 3Sum Closest [M]
+018. 4Sum
+011. Container With Most Water
+26. Remove Duplicates from Sorted Array[E]
+027. Remove Element[E]
+167. Two Sum II - Input array is sorted (Easy)
+633. Sum of Square Numbers (Easy)
+345. Reverse Vowels of a String (Easy)
+680. Valid Palindrome II (Easy)
+524. Longest Word in Dictionary through Deleting (Medium)
 
 
 
