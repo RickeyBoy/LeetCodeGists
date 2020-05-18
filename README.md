@@ -224,6 +224,8 @@
 
 [132. Palindrome Partitioning II 分割回文串II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/132PalindromePartitioningII.md) - hard
 
+[136. Single Number 只出现一次的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/136SingleNumber.md) - easy
+
 [139. Word Break 单词拆分](https://github.com/RickeyBoy/LeetCodeGists/blob/master/139WordBreak.md) - medium
 
 [140. Word Break II 单词拆分 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/140WordBreakII.md) - medium
@@ -250,13 +252,15 @@
 
 [200. Number of Islands 岛屿数量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/200NumberofIslands.md) - medium
 
-[213. House Robber II 打家劫舍 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/213HouseRobberII.md) - easy
+[202. Happy Number 快乐数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/202HappyNumber.md) - easy
 
 [206. Reverse Linked List 反转链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/206ReverseLinkedList.md) - easy
 
 [207. Course Schedule 课程表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/207CourseSchedule.md) - medium
 
 [210. Course Schedule II 课程表 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/210CourseScheduleII.md) - medium
+
+[213. House Robber II 打家劫舍 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/213HouseRobberII.md) - easy
 
 [225. Implement Stack using Queues 用队列实现栈](https://github.com/RickeyBoy/LeetCodeGists/blob/master/225ImplementStackusingQueues.md) - easy
 

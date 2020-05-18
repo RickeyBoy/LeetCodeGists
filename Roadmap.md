@@ -86,11 +86,11 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 
 - [141. Linked List Cycle 环形链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/141LinkedListCycle.md) - easy
 - [142. Linked List Cycle II 环形链表 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/142LinkedListCycleII.md) - medium
+- [202. Happy Number 快乐数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/202HappyNumber.md) - easy
 
 经典题目：
 
 
-Happy Number (medium)
 Middle of the LinkedList (easy)
 
 Pair with Target Sum (easy)Remove Duplicates (easy)Squaring a Sorted Array (easy)Triplet Sum to Zero (medium)Triplet Sum Close to Target (medium)Triplets with Smaller Sum (medium)Subarrays with Product Less than a Target (medium)Dutch National Flag Problem (medium)
