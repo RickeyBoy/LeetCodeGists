@@ -90,10 +90,10 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 - [876. Middle of the Linked List 链表的中间结点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/876MiddleoftheLinkedList.md) - easy
 - [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1TwoSum.md) - easy
 - [15. 3Sum 三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/15ThreeSum.md) - medium
+- [16. 3Sum Closest 最接近的三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/16ThreeSumClosest.md) - medium
 
 经典题目：
 
-16. 3Sum Closest [M]
 018. 4Sum
 011. Container With Most Water
 26. Remove Duplicates from Sorted Array[E]

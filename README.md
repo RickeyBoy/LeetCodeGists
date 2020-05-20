@@ -126,6 +126,8 @@
 
 [15. 3Sum 三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/15ThreeSum.md) - medium
 
+[16. 3Sum Closest 最接近的三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/16ThreeSumClosest.md) - medium
+
 [17. Letter Combinations of a Phone Number 电话号码的字母组合](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/17LetterCombinationsofaPhoneNumber.md) - medium
 
 [19. Remove Nth Node From End of List 删除链表的倒数第N个节点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/19RemoveNthNodeFromEndofList.md) - medium
