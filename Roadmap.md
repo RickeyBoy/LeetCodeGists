@@ -88,11 +88,11 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 - [142. Linked List Cycle II 环形链表 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/142LinkedListCycleII.md) - medium
 - [202. Happy Number 快乐数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/202HappyNumber.md) - easy
 - [876. Middle of the Linked List 链表的中间结点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/876MiddleoftheLinkedList.md) - easy
+- [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1TwoSum.md) - easy
+- [15. 3Sum 三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/15ThreeSum.md) - medium
 
 经典题目：
 
-001 Two Sum
-015. 3Sum
 16. 3Sum Closest [M]
 018. 4Sum
 011. Container With Most Water

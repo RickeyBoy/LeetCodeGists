@@ -124,7 +124,7 @@
 
 [14. Longest Common Prefix 最长公共前缀](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/14LongestCommonPrefix.md) - easy
 
-[15. 3Sum 三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/ThreeSum.md) - medium
+[15. 3Sum 三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/15ThreeSum.md) - medium
 
 [17. Letter Combinations of a Phone Number 电话号码的字母组合](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/17LetterCombinationsofaPhoneNumber.md) - medium
 
