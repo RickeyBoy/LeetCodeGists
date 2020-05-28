@@ -91,14 +91,19 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 - [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1TwoSum.md) - easy
 - [15. 3Sum 三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/15ThreeSum.md) - medium
 - [16. 3Sum Closest 最接近的三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/16ThreeSumClosest.md) - medium
+- [18. 4Sum 四数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/184Sum.md) - medium
+- [11. Container With Most Water 盛最多水的容器](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/11ContainerWithMostWater.md) - medium
+- [26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/26RemoveDuplicatesfromSortedArray.md) - easy
+- [27. Remove Element 移除元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/27RemoveElement.md) - easy
+
+
+
+---
 
 经典题目：
 
-018. 4Sum
-011. Container With Most Water
-26. Remove Duplicates from Sorted Array[E]
-027. Remove Element[E]
-167. Two Sum II - Input array is sorted (Easy)
+Two Sum II - Input array is sorted (Easy)
+
 633. Sum of Square Numbers (Easy)
 345. Reverse Vowels of a String (Easy)
 680. Valid Palindrome II (Easy)
@@ -106,7 +111,7 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 
 
 
-### 4. Pattern: Merge Intervals，区间合并类型
+### 3. Pattern: Merge Intervals，区间合并类型
 
 经典题目：
 

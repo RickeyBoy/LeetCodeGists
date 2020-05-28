@@ -130,6 +130,8 @@
 
 [17. Letter Combinations of a Phone Number 电话号码的字母组合](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/17LetterCombinationsofaPhoneNumber.md) - medium
 
+[18. 4Sum 四数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/184Sum.md) - medium
+
 [19. Remove Nth Node From End of List 删除链表的倒数第N个节点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/19RemoveNthNodeFromEndofList.md) - medium
 
 [20. Valid Parentheses 有效的括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/20ValidParentheses.md) - easy
