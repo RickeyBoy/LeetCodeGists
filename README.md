@@ -292,6 +292,8 @@
 
 [409. Longest Palindrome 最长回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/409LongestPalindrome.md) - easy
 
+[416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/416PartitionEqualSubsetSum.md) - medium
+
 [438. Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/438FindAllAnagramsinaString.md) - medium
 
 [445. Add Two Numbers II 两数相加 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/445AddTwoNumbersII.md) - medium

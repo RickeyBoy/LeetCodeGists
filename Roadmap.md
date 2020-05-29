@@ -183,7 +183,48 @@ Topological Sort (medium)Tasks Scheduling (medium)Tasks Scheduling Order (medium
 
 ## 动态规划
 
-### 1. 0/1 Knapsack, 0/1背包，6个题
+### 1. 0/1 Knapsack, 0/1背包
+
+##### 求解
+
+- 状态转移数组：`dp[背包容量][可选择的物品]`
+- 状态转移方程：`dp[i][w] = max(dp[i - 1][w - wt[i-1]] + val[i-1], dp[i - 1][w]);`
+- 是否可以状态压缩？
+
+##### 关键字
+
+“连续子串 xxxx”、“连续子数组 xxxx”
+
+##### 模板
+
+```cpp
+/* 01背包算法框架 */
+int knapsack(int W, int N, vector<int>& wt, vector<int>& val) {
+    // base case 已初始化
+    vector<vector<int>> dp(N + 1, vector<int>(W + 1, 0));
+    for (int i = 1; i <= N; i++) {
+        for (int w = 1; w <= W; w++) {
+            if (w - wt[i-1] < 0) {
+                // 这种情况下只能选择不装入背包
+                dp[i][w] = dp[i - 1][w];
+            } else {
+                // 装入或者不装入背包，择优
+                dp[i][w] = max(dp[i - 1][w - wt[i-1]] + val[i-1], 
+                               dp[i - 1][w]);
+            }
+        }
+    }
+    return dp[N][W];
+}
+```
+
+##### 例题
+
+[416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/416PartitionEqualSubsetSum.md) - medium
+
+---
+
+- 416, 474, 1049
 
 0/1 Knapsack，0/1背包问题Equal Subset Sum Partition，相等子集划分问题Subset Sum，子集和问题Minimum Subset Sum Difference，子集和的最小差问题Count of Subset Sum，相等子集和的个数问题Target Sum，寻找目标和的问题
 
