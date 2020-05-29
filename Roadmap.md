@@ -220,14 +220,6 @@ int knapsack(int W, int N, vector<int>& wt, vector<int>& val) {
 
 [474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
 
-
-
----
-
--  1049
-
-0/1 Knapsack，0/1背包问题Equal Subset Sum Partition，相等子集划分问题Subset Sum，子集和问题Minimum Subset Sum Difference，子集和的最小差问题Count of Subset Sum，相等子集和的个数问题Target Sum，寻找目标和的问题
-
 ### 2. Unbounded Knapsack，无限背包，5个题
 
 Unbounded Knapsack，无限背包
