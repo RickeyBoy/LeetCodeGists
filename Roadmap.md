@@ -191,10 +191,6 @@ Topological Sort (medium)Tasks Scheduling (medium)Tasks Scheduling Order (medium
 - 状态转移方程：`dp[i][w] = max(dp[i - 1][w - wt[i-1]] + val[i-1], dp[i - 1][w]);`
 - 是否可以状态压缩？
 
-##### 关键字
-
-“连续子串 xxxx”、“连续子数组 xxxx”
-
 ##### 模板
 
 ```cpp
@@ -222,9 +218,13 @@ int knapsack(int W, int N, vector<int>& wt, vector<int>& val) {
 
 [416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/416PartitionEqualSubsetSum.md) - medium
 
+[474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
+
+
+
 ---
 
-- 416, 474, 1049
+-  1049
 
 0/1 Knapsack，0/1背包问题Equal Subset Sum Partition，相等子集划分问题Subset Sum，子集和问题Minimum Subset Sum Difference，子集和的最小差问题Count of Subset Sum，相等子集和的个数问题Target Sum，寻找目标和的问题
 
