@@ -183,7 +183,7 @@ Topological Sort (medium)Tasks Scheduling (medium)Tasks Scheduling Order (medium
 
 ## 动态规划
 
-### 1. 0/1 Knapsack, 0/1背包
+### 1. 0/1 Knapsack, 0/1背包 & Unbounded Knapsack, 无限背包
 
 ##### 求解
 
@@ -216,11 +216,13 @@ int knapsack(int W, int N, vector<int>& wt, vector<int>& val) {
 
 ##### 例题
 
-[416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/416PartitionEqualSubsetSum.md) - medium
+- 01 背包： [416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/416PartitionEqualSubsetSum.md) - medium
 
-[474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
+- 01 背包：[474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
 
-### 2. Unbounded Knapsack，无限背包，5个题
+- 完全背包：[518. Coin Change 2 零钱兑换 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/518CoinChange2.md) - medium
+
+### 2. ，5个题
 
 Unbounded Knapsack，无限背包
 
