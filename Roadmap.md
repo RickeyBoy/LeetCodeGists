@@ -216,23 +216,53 @@ int knapsack(int W, int N, vector<int>& wt, vector<int>& val) {
 
 ##### 例题
 
-- 01 背包： [416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/416PartitionEqualSubsetSum.md) - medium
+- 子集背包： [416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/416PartitionEqualSubsetSum.md) - medium
 
 - 01 背包：[474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
 
 - 完全背包：[518. Coin Change 2 零钱兑换 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/518CoinChange2.md) - medium
 
-### 2. ，5个题
+### 2. 子序列问题
 
-Unbounded Knapsack，无限背包
+##### 求解
 
-Rod Cutting，切钢条问题
+- 一维的 dp 数组
+- 二维的 dp 数组
 
-Coin Change，换硬币问题
+##### 模板：一维dp
 
-Minimum Coin Change，凑齐每个数需要的最少硬币问题
+```cpp
+int n = array.length;
+int[] dp = new int[n];
+for (int i = 1; i < n; i++) {
+    for (int j = 0; j < i; j++) {
+        dp[i] = 最值(dp[i], dp[j] + ...)
+    }
+}
+```
 
-Maximum Ribbon Cut，丝带的最大值切法
+##### 模板：二维dp
+
+```cpp
+int n = arr.length;
+int[][] dp = new dp[n][n];
+for (int i = 0; i < n; i++) {
+    for (int j = 0; j < n; j++) {
+        if (arr[i] == arr[j]) 
+            dp[i][j] = dp[i][j] + ...
+        else
+            dp[i][j] = 最值(...)
+    }
+}
+```
+
+##### 例题
+
+- [70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/70ClimbingStairs.md) - easy
+
+---
+
+[labuladong](https://labuladong.github.io/ebook/动态规划系列/最长公共子序列.html)
 
 ### 3. Fibonacci Numbers，斐波那契数列，6个题
 
