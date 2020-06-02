@@ -96,6 +96,8 @@
 
 [面试题 17.16. 按摩师](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview17_16.md) - easy
 
+[面试题64. 求1+2+…+n](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview64.md) - medium
+
 ### LeetCode 记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1TwoSum.md) - easy
