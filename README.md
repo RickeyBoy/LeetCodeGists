@@ -10,7 +10,7 @@
 
 [Manacher Algorithm - 最长回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Manacher_Algorithm.md) (eg. 5)
 
-[特征根求解线性递推方程](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Eigenvalues.md)(latex 公式可以下载源文件使用 typora 查看)
+[特征根求解线性递推方程](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Eigenvalues.md)
 
 [Binary Exponentiation - 快速幂](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Binary_Exponentiation.md) (eg. 50)
 
@@ -26,6 +26,10 @@
 
 [Bezouts lemma - 裴蜀定理](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Bezouts_lemma..md)(eg. 365)
 
+> 注：在 Github Readme 中查看 Latex 公式的方式
+> 1. 下载源文件用支持 Latex 的编辑器（如 Typora）查看
+> 2. 在 Chrome 中使用第三方插件（如 MathJax Plugin for Github）后查看
+
 ### 代码模板
 
 [Quick Sort - 快排](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/QuickSort.md)
@@ -34,7 +38,7 @@
 
 [Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/UnionFind.md)
 
-### 剑指 offer
+### 剑指 offer 解题记录
 
 [面试题03. 数组中重复的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer03.md) - easy
 
@@ -86,7 +90,7 @@
 
 [面试题62. 圆圈中最后剩下的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer62.md) - easy（约瑟夫环）
 
-### 程序员面试金典
+### 程序员面试金典 解题记录
 
 [面试题 01.06. 字符串压缩](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview01_06.md) - easy
 
@@ -98,7 +102,7 @@
 
 [面试题64. 求1+2+…+n](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview64.md) - medium
 
-### LeetCode 记录
+### LeetCode 解题记录
 
 [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1TwoSum.md) - easy
 

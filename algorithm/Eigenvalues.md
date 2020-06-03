@@ -1,5 +1,10 @@
 # 特征根求解线性递推方程
 
+> 注：在 Github Readme 中查看 Latex 公式的方式
+> 1. 下载源文件用支持 Latex 的编辑器（如 Typora）查看
+> 2. 在 Chrome 中使用第三方插件（如 MathJax Plugin for Github）后查看
+
+
 
 主要目的：利用特征根，通过递推关系式求通项公式
 
