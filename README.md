@@ -348,6 +348,8 @@
 
 [1071. Greatest Common Divisor of Strings 字符串的最大公因子](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1071GreatestCommonDivisorofStrings.md) - easy
 
+[1143. Longest Common Subsequence 最长公共子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1143LongestCommonSubsequence.md) - medium
+
 [1160. Find Words That Can Be Formed by Characters 拼写单词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1160FindWordsThatCanBeFormedbyCharacters.md) - easy
 
 [1267. Count Servers that Communicate 统计参与通信的服务器](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1267CountServersthatCommunicate.md) - medium
