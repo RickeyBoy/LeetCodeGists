@@ -322,6 +322,8 @@
 
 [791. Custom Sort String 自定义字符串排序](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/791CustomSortString.md) - medium
 
+[837. New 21 Game 新 21 点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/837New21Game.md) - medium
+
 [841. Keys and Rooms 钥匙和房间](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/841KeysandRooms.md) - medium
 
 [876. Middle of the Linked List 链表的中间结点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/876MiddleoftheLinkedList.md) - easy
