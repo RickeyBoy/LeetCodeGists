@@ -310,6 +310,8 @@
 
 [509. Fibonacci Number 斐波那契数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/509FibonacciNumber.md) - easy
 
+[516. Longest Palindromic Subsequence 最长回文子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/516LongestPalindromicSubsequence.md) - medium
+
 [518. Coin Change 2 零钱兑换 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/518CoinChange2.md) - medium
 
 [543. Diameter of Binary Tree 二叉树的直径](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/543DiameterofBinaryTree.md) - easy

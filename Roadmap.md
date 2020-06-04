@@ -261,6 +261,7 @@ for (int i = 0; i < n; i++) {
 - 一维 dp：[70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/70ClimbingStairs.md) - easy
 - LCS：[1143. Longest Common Subsequence 最长公共子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1143LongestCommonSubsequence.md) - medium
 - 编辑距离：[72. Edit Distance 编辑距离](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/72EditDistance.md) - hard
+- LCS：[516. Longest Palindromic Subsequence 最长回文子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/516LongestPalindromicSubsequence.md) - medium
 
 ---
 
