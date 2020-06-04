@@ -226,10 +226,10 @@ int knapsack(int W, int N, vector<int>& wt, vector<int>& val) {
 
 ##### 求解
 
-- 一维的 dp 数组
+- 一维的 dp 数组（二维的压缩版）
 - 二维的 dp 数组
 
-##### 模板：一维dp
+##### 模板：一维dp（二维 dp 压缩）
 
 ```cpp
 int n = array.length;
@@ -258,7 +258,6 @@ for (int i = 0; i < n; i++) {
 
 ##### 例题
 
-- 一维 dp：[70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/70ClimbingStairs.md) - easy
 - LCS：[1143. Longest Common Subsequence 最长公共子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1143LongestCommonSubsequence.md) - medium
 - 编辑距离：[72. Edit Distance 编辑距离](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/72EditDistance.md) - hard
 - LCS：[516. Longest Palindromic Subsequence 最长回文子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/516LongestPalindromicSubsequence.md) - medium
@@ -268,6 +267,8 @@ for (int i = 0; i < n; i++) {
 [labuladong](https://labuladong.github.io/ebook/动态规划系列/最长公共子序列.html)
 
 ### 3. Fibonacci Numbers，斐波那契数列，6个题
+
+- [70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/70ClimbingStairs.md) - easy
 
 Fibonacci numbers，斐波那契数列问题Staircase，爬楼梯问题Number factors，分解因子问题Minimum jumps to reach the end，蛙跳最小步数问题Minimum jumps with fee，蛙跳带有代价的问题House thief，偷房子问题
 
