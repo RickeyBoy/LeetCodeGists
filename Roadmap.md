@@ -261,10 +261,7 @@ for (int i = 0; i < n; i++) {
 - LCS：[1143. Longest Common Subsequence 最长公共子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1143LongestCommonSubsequence.md) - medium
 - 编辑距离：[72. Edit Distance 编辑距离](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/72EditDistance.md) - hard
 - LCS：[516. Longest Palindromic Subsequence 最长回文子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/516LongestPalindromicSubsequence.md) - medium
-
----
-
-[labuladong](https://labuladong.github.io/ebook/动态规划系列/最长公共子序列.html)
+- 一维 dp：[53. Maximum Subarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/53MaximumSubarray.md) - easy
 
 ### 3. Fibonacci Numbers，斐波那契数列，6个题
 
