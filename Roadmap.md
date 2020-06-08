@@ -98,19 +98,6 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 
 
 
----
-
-经典题目：
-
-Two Sum II - Input array is sorted (Easy)
-
-633. Sum of Square Numbers (Easy)
-345. Reverse Vowels of a String (Easy)
-680. Valid Palindrome II (Easy)
-524. Longest Word in Dictionary through Deleting (Medium)
-
-
-
 ### 3. Pattern: Merge Intervals，区间合并类型
 
 经典题目：
@@ -167,19 +154,11 @@ Top ‘K’ Numbers (easy)Kth Smallest Number (easy)‘K’ Closest Points to th
 
 Merge K Sorted Lists (medium)Kth Smallest Number in M Sorted Lists (Medium)Kth Smallest Number in a Sorted Matrix (Hard)Smallest Number Range (Hard)
 
-### 14. Pattern: 0/1 Knapsack (Dynamic Programming)，0/1背包类型
-
-0/1 Knapsack (medium)
-
-Equal Subset Sum Partition (medium)
-
-Subset Sum (medium)
-
-Minimum Subset Sum Difference (hard)
-
 ### 15. Pattern: Topological Sort (Graph)，拓扑排序类型
 
 Topological Sort (medium)Tasks Scheduling (medium)Tasks Scheduling Order (medium)All Tasks Scheduling Orders (hard)Alien Dictionary (hard)
+
+
 
 ## 动态规划
 
@@ -285,6 +264,13 @@ dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 - [123. Best Time to Buy and Sell Stock III 买卖股票的最佳时机 III](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/123BestTimetoBuyandSellStockIII.md) - hard
 - [188. Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/188BestTimetoBuyandSellStockIV.md) - hard
 - [309. Best Time to Buy and Sell Stock with Cooldown 最佳买卖股票时机含冷冻期](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/309BestTimetoBuyandSellStockwithCooldown.md) - medium
+- [714. Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/714BestTimetoBuyandSellStockwithTransactionFee.md) - medium
+
+
+
+
+
+
 
 ### 3. Fibonacci Numbers，斐波那契数列，6个题
 
