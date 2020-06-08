@@ -166,6 +166,8 @@
 
 [42. Trapping Rain Water 接雨水](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/42TrappingRainWater.md) - hard
 
+[44. Wildcard Matching 通配符匹配](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/44WildcardMatching.md) - hard
+
 [46. Permutations 全排列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/46Permutations.md) - medium
 
 [50. Pow(x,n)](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/50Pow(x,n).md) - medium
