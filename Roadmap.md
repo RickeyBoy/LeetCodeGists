@@ -73,7 +73,7 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 
 掘金：438、76、159、340、3、567、992、424、239、480
 
-### 2. two points，双指针类型
+### 2. Two points 双指针类型
 
 ##### 分类
 
@@ -95,6 +95,8 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 - [11. Container With Most Water 盛最多水的容器](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/11ContainerWithMostWater.md) - medium
 - [26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/26RemoveDuplicatesfromSortedArray.md) - easy
 - [27. Remove Element 移除元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/27RemoveElement.md) - easy
+
+### 3. Binary Search 二分查找
 
 
 
@@ -201,7 +203,7 @@ int knapsack(int W, int N, vector<int>& wt, vector<int>& val) {
 
 - 完全背包：[518. Coin Change 2 零钱兑换 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/518CoinChange2.md) - medium
 
-### 2. 子序列问题
+### 2. Subsequence 子序列问题
 
 ##### 求解
 
@@ -242,7 +244,7 @@ for (int i = 0; i < n; i++) {
 - LCS：[516. Longest Palindromic Subsequence 最长回文子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/516LongestPalindromicSubsequence.md) - medium
 - 一维 dp：[53. Maximum Subarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/53MaximumSubarray.md) - easy
 
-### 3. 状态机
+### 3. State Machine 状态机
 
 ##### 求解：
 - dp[x][y][z] 的含义就是：今天是第 x 天，至今最多进行 y 次交易，我现在z(持有or未持有)着股票
