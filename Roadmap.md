@@ -263,6 +263,29 @@ for (int i = 0; i < n; i++) {
 - LCS：[516. Longest Palindromic Subsequence 最长回文子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/516LongestPalindromicSubsequence.md) - medium
 - 一维 dp：[53. Maximum Subarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/53MaximumSubarray.md) - easy
 
+### 3. 状态机
+
+##### 求解：
+- dp[x][y][z] 的含义就是：今天是第 x 天，至今最多进行 y 次交易，我现在z(持有or未持有)着股票
+
+##### 模板：一维dp（二维 dp 压缩）
+
+```cpp
+// base case：
+dp[-1][k][0] = dp[i][0][0] = 0
+dp[-1][k][1] = dp[i][0][1] = -infinity
+// 状态转移方程：
+dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
+dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
+```
+
+##### 例题
+- [121. Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/121BestTimetoBuyandSellStock.md) - easy
+- [122. Best Time to Buy and Sell Stock II 买卖股票的最佳时机 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/122BestTimetoBuyandSellStockII.md) - easy
+- [123. Best Time to Buy and Sell Stock III 买卖股票的最佳时机 III](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/123BestTimetoBuyandSellStockIII.md) - hard
+- [188. Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/188BestTimetoBuyandSellStockIV.md) - hard
+- [309. Best Time to Buy and Sell Stock with Cooldown 最佳买卖股票时机含冷冻期](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/309BestTimetoBuyandSellStockwithCooldown.md) - medium
+
 ### 3. Fibonacci Numbers，斐波那契数列，6个题
 
 - [70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/70ClimbingStairs.md) - easy
