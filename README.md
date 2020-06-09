@@ -102,6 +102,8 @@
 
 [面试题 17.16. 按摩师](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview17_16.md) - easy
 
+[面试题46. 把数字翻译成字符串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview46.md) - medium
+
 [面试题64. 求1+2+…+n](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview64.md) - medium
 
 ### LeetCode 解题记录
