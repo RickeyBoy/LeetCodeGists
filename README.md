@@ -226,6 +226,8 @@
 
 [105. Construct Binary Tree from Preorder and Inorder Traversal 从前序与中序遍历序列构造二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/105ConstructBinaryTreefromPreorderandInorderTraversal.md) - medium
 
+[112. Path Sum 路径总和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/112PathSum.md) - easy
+
 [120. Triangle 三角形最小路径和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/120Triangle.md) - medium
 
 [121. Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/121BestTimetoBuyandSellStock.md) - easy
