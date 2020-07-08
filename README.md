@@ -102,6 +102,8 @@
 
 [面试题 10.01. 合并排序的数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview10_01.md) - easy（与 343 题相同）
 
+[面试题 16.11. 跳水板](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview16_11.md) - easy
+
 [面试题 17.16. 按摩师](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview17_16.md) - easy
 
 [面试题46. 把数字翻译成字符串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview46.md) - medium
