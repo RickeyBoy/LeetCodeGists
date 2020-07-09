@@ -40,6 +40,8 @@
 
 [Binary Tree 二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/BinaryTree.md)
 
+[Trie 字典树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Trie.md)
+
 ### 剑指 offer 解题记录
 
 [面试题03. 数组中重复的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer03.md) - easy
