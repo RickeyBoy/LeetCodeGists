@@ -312,6 +312,8 @@
 
 [365. Water and Jug Problem 水壶问题](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/365WaterandJugProblem.md) - easy
 
+[392. Is Subsequence 判断子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/392IsSubsequence.md) - easy
+
 [409. Longest Palindrome 最长回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/409LongestPalindrome.md) - easy
 
 [416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/416PartitionEqualSubsetSum.md) - medium
