@@ -232,6 +232,8 @@
 
 [112. Path Sum 路径总和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/112PathSum.md) - easy
 
+[114. Flatten Binary Tree to Linked List 二叉树展开为链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/114FlattenBinaryTreetoLinkedList.md) - medium
+
 [120. Triangle 三角形最小路径和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/120Triangle.md) - medium
 
 [121. Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/121BestTimetoBuyandSellStock.md) - easy
