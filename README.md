@@ -222,6 +222,8 @@
 
 [98. Validate Binary Search Tree 验证二叉搜索树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/98ValidateBinarySearchTree.md) - medium
 
+[100. Same Tree 相同的树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/100SameTree.md) - easy
+
 [101. Symmetric Tree 对称二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/101SymmetricTree.md) - easy
 
 [102. Binary Tree Level Order Traversal 二叉树的层次遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/102BinaryTreeLevelOrderTraversal.md) - medium
