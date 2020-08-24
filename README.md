@@ -330,6 +330,8 @@
 
 [445. Add Two Numbers II 两数相加 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/445AddTwoNumbersII.md) - medium
 
+[459. Repeated Substring Pattern 重复字符串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/459RepeatedSubstringPattern.md) - easy
+
 [474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
 
 [509. Fibonacci Number 斐波那契数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/509FibonacciNumber.md) - easy
