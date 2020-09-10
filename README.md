@@ -170,6 +170,8 @@
 
 [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/33SearchinRotatedSortedArray.md) - medium
 
+[39. Combination Sum 组合总和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/39CombinationSum.md) - medium
+
 [41. First Missing Positive 缺失的第一个正数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/41FirstMissingPositive.md) - hard
 
 [42. Trapping Rain Water 接雨水](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/42TrappingRainWater.md) - hard
