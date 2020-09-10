@@ -172,6 +172,8 @@
 
 [39. Combination Sum 组合总和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/39CombinationSum.md) - medium
 
+[40. Combination Sum II 组合总和 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/40CombinationSumII.md) - medium
+
 [41. First Missing Positive 缺失的第一个正数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/41FirstMissingPositive.md) - hard
 
 [42. Trapping Rain Water 接雨水](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/42TrappingRainWater.md) - hard
