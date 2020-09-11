@@ -296,6 +296,8 @@
 
 [213. House Robber II 打家劫舍 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/213HouseRobberII.md) - easy
 
+[216. Combination Sum III 组合总和 III](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/216CombinationSumIII.md) - medium
+
 [225. Implement Stack using Queues 用队列实现栈](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/225ImplementStackusingQueues.md) - easy
 
 [229. Majority Element II 求众数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/229MajorityElementII.md) - medium
