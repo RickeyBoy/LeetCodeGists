@@ -322,6 +322,8 @@
 
 [343. Integer Break 整数拆分](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/343IntegerBreak.md) - medium
 
+[349. Intersection of Two Arrays 两个数组的交集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/349IntersectionofTwoArrays.md) - easy
+
 [365. Water and Jug Problem 水壶问题](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/365WaterandJugProblem.md) - easy
 
 [392. Is Subsequence 判断子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/392IsSubsequence.md) - easy
