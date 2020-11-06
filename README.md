@@ -42,6 +42,8 @@
 
 [Trie 字典树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Trie.md)
 
+[Binary Count 1 二进制数中 1 的个数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/BinaryCount1.md)
+
 ### 剑指 offer 解题记录
 
 [面试题03. 数组中重复的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer03.md) - easy
