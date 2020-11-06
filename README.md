@@ -404,4 +404,6 @@
 
 [1326. Minimum Number of Taps to Open to Water a Garden 灌溉花园的最少水龙头数目](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1326MinimumNumberofTapstoOpentoWateraGarden.md) - hard
 
+[1356. Sort Integers by The Number of 1 Bits 根据数字二进制下 1 的数目排序](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1356SortIntegersbyTheNumberof1Bits.md) - easy
+
 [1431. Kids With the Greatest Number of Candies 拥有最多糖果的孩子](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1431KidsWiththeGreatestNumberofCandies.md) - easy
