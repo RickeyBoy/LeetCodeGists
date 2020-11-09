@@ -388,6 +388,8 @@
 
 [967. Numbers With Same Consecutive Differences 连续差相同的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/967NumbersWithSameConsecutiveDifferences.md) - medium
 
+[973. K Closest Points to Origin 最接近原点的 K 个点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/973KClosestPointstoOrigin.md) - medium
+
 [990. Satisfiability of Equality Equations 等式方程的可满足性](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/990SatisfiabilityofEqualityEquations.md) - medium
 
 [992. Subarrays with K Different Integers K 个不同整数的子数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/992SubarrayswithKDifferentIntegers.md) - hard
