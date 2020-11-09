@@ -34,6 +34,8 @@
 
 [Quick Sort - 快排](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/QuickSort.md)
 
+[Quick Select 快速选择算法](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/QuickSelect_Algorithm.md)
+
 [Palindrome - 回文串判定](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Palindrome.md)
 
 [Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/UnionFind.md)
