@@ -170,6 +170,8 @@
 
 [28. Implement strStr() 实现 strStr()](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/28ImplementstrStr().md) - easy
 
+[31. Next Permutation 下一个排列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/31NextPermutation.md) - medium
+
 [32. Longest Valid Parentheses 最长有效括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/32LongestValidParentheses.md) - hard
 
 [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/33SearchinRotatedSortedArray.md) - medium
