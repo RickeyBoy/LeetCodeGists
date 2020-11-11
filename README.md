@@ -362,6 +362,8 @@
 
 [572. Subtree of Another Tree 另一个树的子树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/572SubtreeofAnotherTree.md) - easy
 
+[614. Freedom Trail 自由之路](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/614FreedomTrail.md) - hard
+
 [680. Valid Palindrome II 验证回文字符串 Ⅱ](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/680ValidPalindromeII.md) - easy
 
 [695. Max Area of Island 岛屿的最大面积](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/695MaxAreaofIsland.md) - medium
