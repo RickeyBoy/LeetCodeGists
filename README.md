@@ -386,6 +386,8 @@
 
 [887. Super Egg Drop 鸡蛋掉落](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/887SuperEggDrop.md) - hard
 
+[922. Sort Array By Parity II 按奇偶排序数组 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/922SortArrayByParityII.md) - easy
+
 [941. Valid Mountain Array 有效的山脉数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/941ValidMountainArray.md) - easy
 
 [959. Regions Cut By Slashes 由斜杠划分区域](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/959RegionsCutBySlashes.md) - medium
