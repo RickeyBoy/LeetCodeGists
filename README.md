@@ -264,6 +264,8 @@
 
 [132. Palindrome Partitioning II 分割回文串II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/132PalindromePartitioningII.md) - hard
 
+[134. Gas Station 加油站](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/134GasStation.md) - medium
+
 [136. Single Number 只出现一次的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/136SingleNumber.md) - easy
 
 [139. Word Break 单词拆分](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/139WordBreak.md) - medium
