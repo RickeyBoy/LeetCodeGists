@@ -280,7 +280,9 @@
 
 [145. Binary Tree Postorder Traversal 二叉树的后序遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/145BinaryTreePostorderTraversal.md) - hard
 
-[146. LRU Cache LRU缓存机制](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/146LRUCache.md) - medium
+[146. LRU Cache LRU 缓存机制](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/146LRUCache.md) - medium
+
+[147. Insertion Sort List 对链表进行插入排序](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/147InsertionSortList.md) - medium
 
 [153. Find Minimum in Rotated Sorted Array 寻找旋转排序数组中的最小值](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/153FindMinimuminRotatedSortedArray.md) - medium
 
