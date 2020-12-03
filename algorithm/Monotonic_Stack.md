@@ -6,8 +6,8 @@
 
 两个相关的 LeetCode：
 
-- [84. Largest Rectangle in Histogram 柱状图中最大的矩形](https://github.com/RickeyBoy/LeetCodeGists/blob/master/84LargestRectangleinHistogram.md) - hard
-- [85. Maximal Rectangle 最大矩形](https://github.com/RickeyBoy/LeetCodeGists/blob/master/85MaximalRectangle.md) - hard
+- [84. Largest Rectangle in Histogram 柱状图中最大的矩形](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/84LargestRectangleinHistogram.md) - hard
+- [85. Maximal Rectangle 最大矩形](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/85MaximalRectangle.md) - hard
 
 ### 伪代码
 
