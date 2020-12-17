@@ -96,6 +96,8 @@
 
 [面试题26. 树的子结构](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer26.md) - medium
 
+[剑指 Offer 27. 二叉树的镜像](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/226InvertBinaryTree.md) - easy（与 226 题相同）
+
 [面试题29. 顺时针打印矩阵](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/54SpiralMatrix.md) - easy（与 54 题相同）
 
 [面试题62. 圆圈中最后剩下的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer62.md) - easy（约瑟夫环）
@@ -313,6 +315,8 @@
 [216. Combination Sum III 组合总和 III](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/216CombinationSumIII.md) - medium
 
 [225. Implement Stack using Queues 用队列实现栈](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/225ImplementStackusingQueues.md) - easy
+
+[226. Invert Binary Tree 翻转二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/226InvertBinaryTree.md) - easy
 
 [229. Majority Element II 求众数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/229MajorityElementII.md) - medium
 
