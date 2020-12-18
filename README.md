@@ -346,6 +346,8 @@
 
 [365. Water and Jug Problem 水壶问题](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/365WaterandJugProblem.md) - easy
 
+[389. Find the Difference 找不同](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/389FindtheDifference.md) - easy
+
 [392. Is Subsequence 判断子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/392IsSubsequence.md) - easy
 
 [409. Longest Palindrome 最长回文串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/409LongestPalindrome.md) - easy
