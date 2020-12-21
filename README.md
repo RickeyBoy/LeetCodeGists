@@ -388,6 +388,8 @@
 
 [739. Daily Temperatures 每日温度](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/739DailyTemperatures.md) - medium
 
+[746. Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/746MinCostClimbingStairs.md) - easy
+
 [765. Couples Holding Hands 情侣牵手](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/765CouplesHoldingHands.md) - hard
 
 [785. Is Graph Bipartite? 判断二分图](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/785IsGraphBipartite.md) - medium
