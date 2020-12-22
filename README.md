@@ -242,6 +242,8 @@
 
 [102. Binary Tree Level Order Traversal 二叉树的层次遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/102BinaryTreeLevelOrderTraversal.md) - medium
 
+[103. Binary Tree Zigzag Level Order Traversal 二叉树的锯齿形层序遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/103BinaryTreeZigzagLevelOrderTraversal.md) - medium
+
 [104. Maximum Depth of Binary Tree 二叉树的最大深度](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/104MaximumDepthofBinaryTree.md) - easy
 
 [105. Construct Binary Tree from Preorder and Inorder Traversal 从前序与中序遍历序列构造二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/105ConstructBinaryTreefromPreorderandInorderTraversal.md) - medium
