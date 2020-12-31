@@ -71,8 +71,7 @@ void down(int x) {
 
 ##### 建堆
 
-> priority_queue <int,vector<int>,greater<int> > q; 大顶堆
->  priority_queue <int,vector<int>,less<int> >q;  小顶堆
+> `priority_queue<int> q;` 大顶堆
 
 1. 方法一：使用 decreasekey（即，向上调整）。从根开始，按 BFS 序进行。 $O(nlogn)$
 

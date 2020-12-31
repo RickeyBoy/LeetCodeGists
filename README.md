@@ -428,6 +428,8 @@
 
 [1013. Partition Array Into Three Parts With Equal Sum 将数组分成和相等的三个部分](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1013PartitionArrayIntoThreePartsWithEqualSum.md) - easy
 
+[1046. Last Stone Weight 最后一块儿石头的重量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1046LastStoneWeight.md) - easy
+
 [1071. Greatest Common Divisor of Strings 字符串的最大公因子](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1071GreatestCommonDivisorofStrings.md) - easy
 
 [1143. Longest Common Subsequence 最长公共子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1143LongestCommonSubsequence.md) - medium
