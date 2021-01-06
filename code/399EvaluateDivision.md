@@ -47,6 +47,10 @@ Ai, Bi, Cj, Dj 由小写英文字母与数字组成
 
 ### 解法：加权并查集
 
+1. 以并查集的 find + unionSet 逻辑为基础
+2.  在 find + unionSet 的函数中额外维护一个 weights 数组，用于表示节点到根节点的权重
+3.  先将 equations 中的变量映射到哈希表中，方便构建合适大小的并查集，以及后续结果的计算
+
 ```cpp
 class Solution {
 public:
