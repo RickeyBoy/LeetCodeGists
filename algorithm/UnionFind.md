@@ -43,3 +43,28 @@ public:
 };
 ```
 
+### 加权并查集
+
+```cpp
+class Solution {
+public:
+    vector<int> parents; // 记录父节点
+    vector<double> weight; // 节点到根节点的权重
+    int find(int x) {
+        if (x!=parents[x])  {
+            int p = parents[x]; // 父节点
+            int root = find(p); // 根节点
+            weight[x] = weight[x] * weight[p]; // 更新权重
+            parents[x] = root; // 顺带路径压缩
+        }
+        return parents[x];
+    }
+    void unionSet(int x, int y, double w) {
+        int xx = find(x);
+        int yy = find(y);
+        parents[xx] = yy; // x 根节点指向 y 根节点
+        weight[xx] = w * weight[y] / weight[x]; // 更新 xx 的 weight
+    }
+};
+```
+
