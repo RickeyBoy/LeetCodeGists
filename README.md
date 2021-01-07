@@ -380,6 +380,8 @@
 
 [543. Diameter of Binary Tree 二叉树的直径](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/543DiameterofBinaryTree.md) - easy
 
+[547. Number of Provinces 省份数量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/547NumberofProvinces.md) - medium
+
 [567. Permutation in String 字符串的排列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/567PermutationinString.md) - medium
 
 [572. Subtree of Another Tree 另一个树的子树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/572SubtreeofAnotherTree.md) - easy
