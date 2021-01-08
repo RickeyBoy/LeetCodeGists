@@ -300,6 +300,8 @@
 
 [188. Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/188BestTimetoBuyandSellStockIV.md) - hard
 
+[189. Rotate Array 旋转数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/189RotateArray.md) - medium
+
 [191. Number of 1 Bits  位1的个数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/191Numberof1Bits.md) - easy
 
 [198. House Robber 打家劫舍](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/198HouseRobber.md) - easy
