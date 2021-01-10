@@ -324,6 +324,8 @@
 
 [226. Invert Binary Tree 翻转二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/226InvertBinaryTree.md) - easy
 
+[228. Summary Ranges 汇总区间](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/228SummaryRanges.md) - easy
+
 [229. Majority Element II 求众数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/229MajorityElementII.md) - medium
 
 [238. Product of Array Except Self 除自身以外数组的乘积](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/238ProductofArrayExceptSelf.md) - medium
