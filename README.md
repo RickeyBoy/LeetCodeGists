@@ -436,6 +436,8 @@
 
 [994. Rotting Oranges 腐烂的橘子](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/994RottingOranges.md) - easy
 
+[1018. Binary Prefix Divisible By 5 可被 5 整除的二进制前缀](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1018BinaryPrefixDivisibleBy5.md) - easy
+
 [1103. Distribute Candies to People 分糖果 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1103DistributeCandiestoPeople.md) - easy
 
 [1013. Partition Array Into Three Parts With Equal Sum 将数组分成和相等的三个部分](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1013PartitionArrayIntoThreePartsWithEqualSum.md) - easy
