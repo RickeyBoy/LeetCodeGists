@@ -461,3 +461,5 @@
 [1356. Sort Integers by The Number of 1 Bits 根据数字二进制下 1 的数目排序](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1356SortIntegersbyTheNumberof1Bits.md) - easy
 
 [1431. Kids With the Greatest Number of Candies 拥有最多糖果的孩子](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1431KidsWiththeGreatestNumberofCandies.md) - easy
+
+[1579. Remove Max Number of Edges to Keep Graph Fully Traversable 保证图可完全遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1579RemoveMaxNumberofEdgestoKeepGraphFullyTraversable.md) - hard
