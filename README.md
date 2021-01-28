@@ -402,6 +402,8 @@
 
 [714. Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/714BestTimetoBuyandSellStockwithTransactionFee.md) - medium
 
+[724. Find Pivot Index 寻找数组的中心索引](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/724FindPivotIndex.md) - easy
+
 [739. Daily Temperatures 每日温度](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/739DailyTemperatures.md) - medium
 
 [746. Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/746MinCostClimbingStairs.md) - easy
