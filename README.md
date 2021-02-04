@@ -392,6 +392,8 @@
 
 [614. Freedom Trail 自由之路](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/614FreedomTrail.md) - hard
 
+[643. Maximum Average Subarray I 子数组最大平均数 I](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/643MaximumAverageSubarrayI.md) - easy
+
 [674. Longest Continuous Increasing Subsequence 最长连续递增序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/674LongestContinuousIncreasingSubsequence.md) - easy
 
 [680. Valid Palindrome II 验证回文字符串 Ⅱ](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/680ValidPalindromeII.md) - easy
