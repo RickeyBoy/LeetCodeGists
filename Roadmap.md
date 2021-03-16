@@ -57,11 +57,11 @@ void slidingWindow(string s, string t) {
 
 ##### 例题
 
-- [438. Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/438FindAllAnagramsinaString.md) - medium
-- [76. Minimum Window Substring 最小覆盖子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/76MinimumWindowSubstring.md) - hard
-- [3. Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/3LongestSubstringWithoutRepeatingCharacters.md) - medium
-- [567. Permutation in String 字符串的排列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/567PermutationinString.md) - medium
-- [992. Subarrays with K Different Integers K 个不同整数的子数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/992SubarrayswithKDifferentIntegers.md) - hard
+- [438. Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/438FindAllAnagramsinaString.md) - medium
+- [76. Minimum Window Substring 最小覆盖子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/76MinimumWindowSubstring.md) - hard
+- [3. Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/3LongestSubstringWithoutRepeatingCharacters.md) - medium
+- [567. Permutation in String 字符串的排列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/567PermutationinString.md) - medium
+- [992. Subarrays with K Different Integers K 个不同整数的子数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/992SubarrayswithKDifferentIntegers.md) - hard
 
 ##### 参考资料
 
@@ -84,17 +84,17 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 
 ##### 例题
 
-- [141. Linked List Cycle 环形链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/141LinkedListCycle.md) - easy
-- [142. Linked List Cycle II 环形链表 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/142LinkedListCycleII.md) - medium
-- [202. Happy Number 快乐数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/202HappyNumber.md) - easy
-- [876. Middle of the Linked List 链表的中间结点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/876MiddleoftheLinkedList.md) - easy
-- [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1TwoSum.md) - easy
-- [15. 3Sum 三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/15ThreeSum.md) - medium
-- [16. 3Sum Closest 最接近的三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/16ThreeSumClosest.md) - medium
-- [18. 4Sum 四数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/184Sum.md) - medium
-- [11. Container With Most Water 盛最多水的容器](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/11ContainerWithMostWater.md) - medium
-- [26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/26RemoveDuplicatesfromSortedArray.md) - easy
-- [27. Remove Element 移除元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/27RemoveElement.md) - easy
+- [141. Linked List Cycle 环形链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/141LinkedListCycle.md) - easy
+- [142. Linked List Cycle II 环形链表 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/142LinkedListCycleII.md) - medium
+- [202. Happy Number 快乐数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/202HappyNumber.md) - easy
+- [876. Middle of the Linked List 链表的中间结点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/876MiddleoftheLinkedList.md) - easy
+- [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/1TwoSum.md) - easy
+- [15. 3Sum 三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/15ThreeSum.md) - medium
+- [16. 3Sum Closest 最接近的三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/16ThreeSumClosest.md) - medium
+- [18. 4Sum 四数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/184Sum.md) - medium
+- [11. Container With Most Water 盛最多水的容器](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/11ContainerWithMostWater.md) - medium
+- [26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/26RemoveDuplicatesfromSortedArray.md) - easy
+- [27. Remove Element 移除元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/27RemoveElement.md) - easy
 
 ### 3. Binary Search 二分查找
 
@@ -197,11 +197,11 @@ int knapsack(int W, int N, vector<int>& wt, vector<int>& val) {
 
 ##### 例题
 
-- 子集背包： [416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/416PartitionEqualSubsetSum.md) - medium
+- 子集背包： [416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/416PartitionEqualSubsetSum.md) - medium
 
-- 01 背包：[474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
+- 01 背包：[474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/474OnesandZeroes.md) - medium
 
-- 完全背包：[518. Coin Change 2 零钱兑换 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/518CoinChange2.md) - medium
+- 完全背包：[518. Coin Change 2 零钱兑换 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/518CoinChange2.md) - medium
 
 ### 2. Subsequence 子序列问题
 
@@ -239,10 +239,10 @@ for (int i = 0; i < n; i++) {
 
 ##### 例题
 
-- LCS：[1143. Longest Common Subsequence 最长公共子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1143LongestCommonSubsequence.md) - medium
-- 编辑距离：[72. Edit Distance 编辑距离](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/72EditDistance.md) - hard
-- LCS：[516. Longest Palindromic Subsequence 最长回文子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/516LongestPalindromicSubsequence.md) - medium
-- 一维 dp：[53. Maximum Subarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/53MaximumSubarray.md) - easy
+- LCS：[1143. Longest Common Subsequence 最长公共子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/1143LongestCommonSubsequence.md) - medium
+- 编辑距离：[72. Edit Distance 编辑距离](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/72EditDistance.md) - hard
+- LCS：[516. Longest Palindromic Subsequence 最长回文子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/516LongestPalindromicSubsequence.md) - medium
+- 一维 dp：[53. Maximum Subarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/53MaximumSubarray.md) - easy
 
 ### 3. State Machine 状态机
 
@@ -261,12 +261,12 @@ dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 ```
 
 ##### 例题
-- [121. Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/121BestTimetoBuyandSellStock.md) - easy
-- [122. Best Time to Buy and Sell Stock II 买卖股票的最佳时机 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/122BestTimetoBuyandSellStockII.md) - easy
-- [123. Best Time to Buy and Sell Stock III 买卖股票的最佳时机 III](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/123BestTimetoBuyandSellStockIII.md) - hard
-- [188. Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/188BestTimetoBuyandSellStockIV.md) - hard
-- [309. Best Time to Buy and Sell Stock with Cooldown 最佳买卖股票时机含冷冻期](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/309BestTimetoBuyandSellStockwithCooldown.md) - medium
-- [714. Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/714BestTimetoBuyandSellStockwithTransactionFee.md) - medium
+- [121. Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/121BestTimetoBuyandSellStock.md) - easy
+- [122. Best Time to Buy and Sell Stock II 买卖股票的最佳时机 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/122BestTimetoBuyandSellStockII.md) - easy
+- [123. Best Time to Buy and Sell Stock III 买卖股票的最佳时机 III](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/123BestTimetoBuyandSellStockIII.md) - hard
+- [188. Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/188BestTimetoBuyandSellStockIV.md) - hard
+- [309. Best Time to Buy and Sell Stock with Cooldown 最佳买卖股票时机含冷冻期](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/309BestTimetoBuyandSellStockwithCooldown.md) - medium
+- [714. Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/714BestTimetoBuyandSellStockwithTransactionFee.md) - medium
 
 
 
@@ -276,7 +276,7 @@ dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 
 ### 3. Fibonacci Numbers，斐波那契数列，6个题
 
-- [70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/70ClimbingStairs.md) - easy
+- [70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/code/70ClimbingStairs.md) - easy
 
 Fibonacci numbers，斐波那契数列问题Staircase，爬楼梯问题Number factors，分解因子问题Minimum jumps to reach the end，蛙跳最小步数问题Minimum jumps with fee，蛙跳带有代价的问题House thief，偷房子问题
 
