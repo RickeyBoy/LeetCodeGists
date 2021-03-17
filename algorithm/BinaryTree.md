@@ -1,5 +1,11 @@
 ### Binary Tree 二叉树
 
+- 前序：根→左→右，`stack *rights`
+- 中序：左→根→右，`stack *mids`
+- 后序：左→右→根，`stack *mids`
+- 层次遍历：`queue *nodes`
+
+
 
 ##### Preorder Traversal 前序遍历
 
