@@ -4,9 +4,9 @@
 
 Manacher 算法可以在 $O(n)$ 时间复杂度内求出一个字符串的最长回文字串。
 
-类似 KMP 算法：[KMP Algorithm - 字符串匹配](https://github.com/RickeyBoy/LeetCodeGists/blob/master/KMPAlgorithm.md)
+类似 KMP 算法：[KMP Algorithm - 字符串匹配](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/KMPAlgorithm.md)
 
-基于中心扩散法：[5. Longest Palindromic Substring 最长回文子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/5LongestPalindromicSubstring.md)
+基于中心扩散法：[5. Longest Palindromic Substring 最长回文子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/5LongestPalindromicSubstring.md)
 
 一篇非常好的讲解文章：[Manacher 马拉车算法](https://blog.crimx.com/2017/07/06/manachers-algorithm/)
 
@@ -47,7 +47,7 @@ for (int i = 0; i < s.size(); ++i) {
 
 lens[i] 表示以 str[i] 为中点的回串其中一边的长度。最终最长回文串长度结果为 max(p[])。
 
-lens[i] 的朴素计算法：中心扩散法。如果整个 lens 数组的计算全部采用中心扩散法，那么就与 [5. Longest Palindromic Substring 最长回文子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/5LongestPalindromicSubstring.md) 相同，时间复杂度为 $O(n^2)$
+lens[i] 的朴素计算法：中心扩散法。如果整个 lens 数组的计算全部采用中心扩散法，那么就与 [5. Longest Palindromic Substring 最长回文子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/5LongestPalindromicSubstring.md) 相同，时间复杂度为 $O(n^2)$
 
 但是 lens[i] 也包含了以 i 为中心的回文串的信息，所以在递推过程中，可以利用这个信息减少计算量。部分后续节点有可能不需要进行朴素计算。
 
