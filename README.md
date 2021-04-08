@@ -100,6 +100,8 @@
 
 [剑指 Offer 27. 二叉树的镜像](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/226InvertBinaryTree.md) - easy（与 226 题相同）
 
+[剑指 Offer 28. 对称的二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/101SymmetricTree.md) - easy（与 101 题相同）
+
 [面试题29. 顺时针打印矩阵](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/54SpiralMatrix.md) - easy（与 54 题相同）
 
 [面试题62. 圆圈中最后剩下的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer62.md) - easy（约瑟夫环）
