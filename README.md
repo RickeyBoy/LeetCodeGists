@@ -434,6 +434,8 @@
 
 [941. Valid Mountain Array 有效的山脉数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/941ValidMountainArray.md) - easy
 
+[946. Validate Stack Sequences 验证栈序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/946ValidateStackSequences.md) - medium
+
 [959. Regions Cut By Slashes 由斜杠划分区域](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/959RegionsCutBySlashes.md) - medium
 
 [967. Numbers With Same Consecutive Differences 连续差相同的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/967NumbersWithSameConsecutiveDifferences.md) - medium
