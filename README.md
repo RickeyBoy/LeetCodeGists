@@ -104,6 +104,8 @@
 
 [面试题29. 顺时针打印矩阵](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/54SpiralMatrix.md) - easy（与 54 题相同）
 
+[剑指 Offer 31. 栈的压入、弹出序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/946ValidateStackSequences.md) - medium（与 946 题相同）
+
 [面试题62. 圆圈中最后剩下的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer62.md) - easy（约瑟夫环）
 
 ### 程序员面试金典 解题记录
