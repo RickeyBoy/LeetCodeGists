@@ -104,6 +104,8 @@
 
 [面试题29. 顺时针打印矩阵](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/54SpiralMatrix.md) - easy（与 54 题相同）
 
+[剑指 Offer 30. 包含min函数的栈](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/155MinStack.md) - easy（与 155 题相同）
+
 [剑指 Offer 31. 栈的压入、弹出序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/946ValidateStackSequences.md) - medium（与 946 题相同）
 
 [面试题62. 圆圈中最后剩下的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer62.md) - easy（约瑟夫环）
@@ -301,6 +303,8 @@
 [153. Find Minimum in Rotated Sorted Array 寻找旋转排序数组中的最小值](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/153FindMinimuminRotatedSortedArray.md) - medium
 
 [154. Find Minimum in Rotated Sorted Array II 寻找旋转排序数组中的最小值 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/154FindMinimuminRotatedSortedArrayII.md) - hard
+
+[155. Min Stack 最小栈](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/155MinStack.md) - easy
 
 [169. Majority Element 多数元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/169MajorityElement.md) - easy
 
