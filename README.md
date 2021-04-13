@@ -108,6 +108,8 @@
 
 [剑指 Offer 31. 栈的压入、弹出序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/946ValidateStackSequences.md) - medium（与 946 题相同）
 
+[剑指 Offer 32 - I. 从上到下打印二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer32_1.md) - medium
+
 [面试题62. 圆圈中最后剩下的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer62.md) - easy（约瑟夫环）
 
 ### 程序员面试金典 解题记录
