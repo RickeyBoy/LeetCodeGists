@@ -462,6 +462,8 @@
 
 [1013. Partition Array Into Three Parts With Equal Sum 将数组分成和相等的三个部分](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1013PartitionArrayIntoThreePartsWithEqualSum.md) - easy
 
+[1035. Uncrossed Lines 不相交的线](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1035UncrossedLines.md) - medium
+
 [1046. Last Stone Weight 最后一块儿石头的重量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1046LastStoneWeight.md) - easy
 
 [1071. Greatest Common Divisor of Strings 字符串的最大公因子](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1071GreatestCommonDivisorofStrings.md) - easy
@@ -473,6 +475,8 @@
 [1160. Find Words That Can Be Formed by Characters 拼写单词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1160FindWordsThatCanBeFormedbyCharacters.md) - easy
 
 [1267. Count Servers that Communicate 统计参与通信的服务器](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1267CountServersthatCommunicate.md) - medium
+
+[1310. XOR Queries of a Subarray 子数组异或查询](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1310XORQueriesofaSubarray.md) - medium
 
 [1326. Minimum Number of Taps to Open to Water a Garden 灌溉花园的最少水龙头数目](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1326MinimumNumberofTapstoOpentoWateraGarden.md) - hard
 
