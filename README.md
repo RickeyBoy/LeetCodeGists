@@ -406,6 +406,8 @@
 
 [643. Maximum Average Subarray I 子数组最大平均数 I](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/643MaximumAverageSubarrayI.md) - easy
 
+[664. Strange Printer 奇怪的打印机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/664StrangePrinter.md) - hard
+
 [674. Longest Continuous Increasing Subsequence 最长连续递增序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/674LongestContinuousIncreasingSubsequence.md) - easy
 
 [680. Valid Palindrome II 验证回文字符串 Ⅱ](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/680ValidPalindromeII.md) - easy
