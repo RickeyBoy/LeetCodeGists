@@ -394,6 +394,8 @@
 
 [518. Coin Change 2 零钱兑换 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/518CoinChange2.md) - medium
 
+[525. Contiguous Array 连续数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/525ContiguousArray.md) - medium
+
 [543. Diameter of Binary Tree 二叉树的直径](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/543DiameterofBinaryTree.md) - easy
 
 [547. Number of Provinces 省份数量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/547NumberofProvinces.md) - medium
