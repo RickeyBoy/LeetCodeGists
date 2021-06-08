@@ -472,6 +472,8 @@
 
 [1046. Last Stone Weight 最后一块儿石头的重量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1046LastStoneWeight.md) - easy
 
+[1049. Last Stone Weight II 最后一块儿石头的重量 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1049LastStoneWeightII.md) - medium
+
 [1071. Greatest Common Divisor of Strings 字符串的最大公因子](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1071GreatestCommonDivisorofStrings.md) - easy
 
 [1128. Number of Equivalent Domino Pairs 等价多米诺骨牌对的数量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1128NumberofEquivalentDominoPairs.md) - easy
