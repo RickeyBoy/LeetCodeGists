@@ -198,9 +198,9 @@ int knapsack(int W, int N, vector<int>& wt, vector<int>& val) {
 ##### 例题
 
 - 子集背包： [416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/416PartitionEqualSubsetSum.md) - medium
-
-- 01 背包：[474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
-
+- 01 背包：
+  - [474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
+  - [494. Target Sum 目标和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/494TargetSum.md) - medium
 - 完全背包：[518. Coin Change 2 零钱兑换 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/518CoinChange2.md) - medium
 
 ### 2. Subsequence 子序列问题
@@ -287,7 +287,6 @@ Longest Palindromic Subsequence，最长回文子序列Longest Palindromic Subst
 ### 5. Longest Common Substring，最长子字符串系列，13个题
 
 Longest Common Substring，最长相同子串Longest Common Subsequence，最长相同子序列Minimum Deletions & Insertions to Transform a String into another，字符串变换Longest Increasing Subsequence，最长上升子序列Maximum Sum Increasing Subsequence，最长上升子序列和Shortest Common Super-sequence，最短超级子序列Minimum Deletions to Make a Sequence Sorted，最少删除变换出子序列Longest Repeating Subsequence，最长重复子序列Subsequence Pattern Matching，子序列匹配Longest Bitonic Subsequence，最长字节子序列Longest Alternating Subsequence，最长交差变换子序列Edit Distance，编辑距离Strings Interleaving，交织字符串
-
 
 
 

@@ -388,6 +388,8 @@
 
 [474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
 
+[494. Target Sum 目标和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/494TargetSum.md) - medium
+
 [509. Fibonacci Number 斐波那契数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/509FibonacciNumber.md) - easy
 
 [516. Longest Palindromic Subsequence 最长回文子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/516LongestPalindromicSubsequence.md) - medium
