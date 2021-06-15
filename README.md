@@ -440,6 +440,8 @@
 
 [841. Keys and Rooms 钥匙和房间](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/841KeysandRooms.md) - medium
 
+[852. Peak Index in a Mountain Array 山脉数组的峰顶索引](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/852PeakIndexinaMountainArray.md) - easy
+
 [876. Middle of the Linked List 链表的中间结点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/876MiddleoftheLinkedList.md) - easy
 
 [887. Super Egg Drop 鸡蛋掉落](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/887SuperEggDrop.md) - hard
