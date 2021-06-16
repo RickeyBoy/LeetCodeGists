@@ -444,6 +444,8 @@
 
 [876. Middle of the Linked List 链表的中间结点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/876MiddleoftheLinkedList.md) - easy
 
+[877. Stone Game 石头游戏](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/877StoneGame.md) - medium
+
 [887. Super Egg Drop 鸡蛋掉落](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/887SuperEggDrop.md) - hard
 
 [922. Sort Array By Parity II 按奇偶排序数组 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/922SortArrayByParityII.md) - easy
