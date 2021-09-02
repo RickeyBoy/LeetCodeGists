@@ -1,11 +1,21 @@
 # Rickey's Roadmap
 
 > 参考链接：[LeetCode按照怎样的顺序来刷题比较好？ - 知乎]
-(https://www.zhihu.com/question/36738189/answer/908664455)
+> (https://www.zhihu.com/question/36738189/answer/908664455)
+>
+> ACM金牌选手整理的【LeetCode刷题顺序】 - 编程熊的文章 - 知乎 https://zhuanlan.zhihu.com/p/388470520
 
 ## TODO
 1. 按照这个顺序再刷题
 2. 每个类型应该有原理 + 方法论 + 模板 + 题目分析 + 例题合集
+
+
+
+## 数据结构
+
+
+
+
 
 ## 基础类型
 
@@ -67,12 +77,6 @@ void slidingWindow(string s, string t) {
 
 - [labuladong - 滑动窗口](https://mp.weixin.qq.com/s/ioKXTMZufDECBUwRRp3zaA)
 
----
-
-https://juejin.im/post/5cccc9d1f265da0384129e5f
-
-掘金：438、76、159、340、3、567、992、424、239、480
-
 ### 2. Two points 双指针类型
 
 ##### 分类
@@ -96,11 +100,23 @@ https://juejin.im/post/5cccc9d1f265da0384129e5f
 - [26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/26RemoveDuplicatesfromSortedArray.md) - easy
 - [27. Remove Element 移除元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/27RemoveElement.md) - easy
 
+
+
+---
+
+TODO：
+
 ### 3. Binary Search 二分查找
 
+1. [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/33SearchinRotatedSortedArray.md) - medium
 
 
-### 3. Pattern: Merge Intervals，区间合并类型
+
+1. [LeetCode 34. 在排序数组中查找元素的第一个和最后一个位置](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+
+
+### 4. Pattern: Merge Intervals，区间合并类型
 
 经典题目：
 
@@ -124,13 +140,15 @@ Reverse a Sub-list (medium)
 
 Reverse every K-element Sub-list (medium)
 
-### 7. Pattern: Tree Breadth First Search，树上的BFS
+### **深度优先搜索DFS**
 
-Binary Tree Level Order Traversal (easy)Reverse Level Order Traversal (easy)Zigzag Traversal (medium)Level Averages in a Binary Tree (easy)Minimum Depth of a Binary Tree (easy)Level Order Successor (easy)Connect Level Order Siblings (medium)
+1. [LeetCode 236. 二叉树的最近公共祖先](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+2. [LeetCode 301. 删除无效的括号](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/remove-invalid-parentheses/)
 
-### 8. Pattern: Tree Depth First Search，树上的DFS
+### **宽度优先搜索BFS**
 
-Binary Tree Path Sum (easy)All Paths for a Sum (medium)Sum of Path Numbers (medium)Path With Given Sequence (medium)Count Paths for a Sum (medium)
+1. [LeetCode 200. 岛屿数量](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/number-of-islands/)
+2. [LeetCode 617. 合并二叉树](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/merge-two-binary-trees/)
 
 ### 9. Pattern: Two Heaps，双堆类型
 
@@ -159,6 +177,39 @@ Merge K Sorted Lists (medium)Kth Smallest Number in M Sorted Lists (Medium)Kth S
 ### 15. Pattern: Topological Sort (Graph)，拓扑排序类型
 
 Topological Sort (medium)Tasks Scheduling (medium)Tasks Scheduling Order (medium)All Tasks Scheduling Orders (hard)Alien Dictionary (hard)
+
+### **字典树Trie**
+
+1. [LeetCode 139. 单词拆分](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/word-break/)
+2. [LeetCode 208. 实现 Trie (前缀树)](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/implement-trie-prefix-tree/)
+
+### **递归&回溯**
+
+1. [LeetCode 17. 电话号码的字母组合](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+2. [LeetCode 22. 括号生成](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/generate-parentheses/)
+3. [LeetCode 39. 组合总和](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/combination-sum/)
+4. [LeetCode 46. 全排列](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/permutations/)
+5. [LeetCode 78. 子集](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/subsets/)
+6. [LeetCode 79. 单词搜索](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/word-search/)
+7. [LeetCode 226. 翻转二叉树](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/invert-binary-tree/)
+
+
+
+### **最短路算法**
+
+1. [LeetCode 743. 网络延迟时间](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/network-delay-time/)
+
+### **最小生成树**
+
+1. [1584. 连接所有点的最小费用](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/min-cost-to-connect-all-points/)
+
+### **拓扑排序**
+
+1. [LeetCode 207. 课程表](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/course-schedule/)
+
+
+
+
 
 
 
@@ -247,7 +298,7 @@ for (int i = 0; i < n; i++) {
 ### 3. State Machine 状态机
 
 ##### 求解：
-- dp[x][y][z] 的含义就是：今天是第 x 天，至今最多进行 y 次交易，我现在z(持有or未持有)着股票
+- `dp[x][y][z]` 的含义就是：今天是第 x 天，至今最多进行 y 次交易，我现在z(持有or未持有)着股票
 
 ##### 模板：一维dp（二维 dp 压缩）
 
@@ -267,12 +318,6 @@ dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 - [188. Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/188BestTimetoBuyandSellStockIV.md) - hard
 - [309. Best Time to Buy and Sell Stock with Cooldown 最佳买卖股票时机含冷冻期](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/309BestTimetoBuyandSellStockwithCooldown.md) - medium
 - [714. Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/714BestTimetoBuyandSellStockwithTransactionFee.md) - medium
-
-
-
-
-
-
 
 ### 3. Fibonacci Numbers，斐波那契数列，6个题
 
