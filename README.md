@@ -188,6 +188,8 @@
 
 [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/33SearchinRotatedSortedArray.md) - medium
 
+[34. Find First and Last Position of Element in Sorted Array 在排序数组中查找元素的第一个和最后一个位置](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/34FindFirstandLastPositionofElementinSortedArray.md) - medium
+
 [39. Combination Sum 组合总和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/39CombinationSum.md) - medium
 
 [40. Combination Sum II 组合总和 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/40CombinationSumII.md) - medium

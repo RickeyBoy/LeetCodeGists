@@ -100,21 +100,22 @@ void slidingWindow(string s, string t) {
 - [26. Remove Duplicates from Sorted Array 删除排序数组中的重复项](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/26RemoveDuplicatesfromSortedArray.md) - easy
 - [27. Remove Element 移除元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/27RemoveElement.md) - easy
 
+### 3. Binary Search 二分查找
+
+##### 注意点
+
+- 注意二分的边界条件
+
+##### 例题
+
+- [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/33SearchinRotatedSortedArray.md) - medium
+- [34. Find First and Last Position of Element in Sorted Array 在排序数组中查找元素的第一个和最后一个位置](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/34FindFirstandLastPositionofElementinSortedArray.md) - medium
+
 
 
 ---
 
 TODO：
-
-### 3. Binary Search 二分查找
-
-1. [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/33SearchinRotatedSortedArray.md) - medium
-
-
-
-1. [LeetCode 34. 在排序数组中查找元素的第一个和最后一个位置](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-
-
 
 ### 4. Pattern: Merge Intervals，区间合并类型
 
