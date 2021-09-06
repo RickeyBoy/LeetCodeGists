@@ -48,6 +48,8 @@
 
 [Priority Queue 二叉堆(优先队列)](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Priority_Queue.md)
 
+[binary Search 二分查找](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/704binarySearch.md)
+
 ### 剑指 offer 解题记录
 
 [面试题03. 数组中重复的数字](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/offer03.md) - easy
@@ -421,6 +423,8 @@
 [684. Redundant Connection 冗余连接](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/684RedundantConnection.md) - medium
 
 [695. Max Area of Island 岛屿的最大面积](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/695MaxAreaofIsland.md) - medium
+
+[704. binary Search 二分查找](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/704binarySearch.md) - easy
 
 [714. Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/714BestTimetoBuyandSellStockwithTransactionFee.md) - medium
 
