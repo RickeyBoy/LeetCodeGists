@@ -117,6 +117,18 @@ void slidingWindow(string s, string t) {
 
 TODO：
 
+### **深度优先搜索DFS**
+
+[236. Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) - medium
+
+2. [LeetCode 301. 删除无效的括号](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/remove-invalid-parentheses/)
+
+### **宽度优先搜索BFS**
+
+1. [LeetCode 200. 岛屿数量](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/number-of-islands/)
+2. [LeetCode 617. 合并二叉树](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/merge-two-binary-trees/)
+
+
 ### 4. Pattern: Merge Intervals，区间合并类型
 
 经典题目：
@@ -140,16 +152,6 @@ Reverse a LinkedList (easy)
 Reverse a Sub-list (medium)
 
 Reverse every K-element Sub-list (medium)
-
-### **深度优先搜索DFS**
-
-1. [LeetCode 236. 二叉树的最近公共祖先](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-2. [LeetCode 301. 删除无效的括号](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/remove-invalid-parentheses/)
-
-### **宽度优先搜索BFS**
-
-1. [LeetCode 200. 岛屿数量](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/number-of-islands/)
-2. [LeetCode 617. 合并二叉树](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/merge-two-binary-trees/)
 
 ### 9. Pattern: Two Heaps，双堆类型
 
