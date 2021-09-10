@@ -111,17 +111,28 @@ void slidingWindow(string s, string t) {
 - [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/33SearchinRotatedSortedArray.md) - medium
 - [34. Find First and Last Position of Element in Sorted Array 在排序数组中查找元素的第一个和最后一个位置](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/34FindFirstandLastPositionofElementinSortedArray.md) - medium
 
+### 4. 深度优先搜索DFS
+
+##### 求解
+
+- 定义通用 dfs 函数，函数需要拼上每一步需要的参数
+
+##### 关键字
+
+“输出所有可能结果”
+
+##### 例题
+
+[236. Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) - medium
+
+[301. Remove Invalid Parentheses 删除无效的括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/301RemoveInvalidParentheses.md) - hard
 
 
 ---
 
 TODO：
 
-### **深度优先搜索DFS**
 
-[236. Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) - medium
-
-2. [LeetCode 301. 删除无效的括号](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/remove-invalid-parentheses/)
 
 ### **宽度优先搜索BFS**
 
