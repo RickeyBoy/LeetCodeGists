@@ -116,12 +116,15 @@ void slidingWindow(string s, string t) {
 ##### 求解
 
 - 定义通用 dfs 函数，函数需要拼上每一步需要的参数
+- 递归调用
 
 ##### 关键字
 
 “输出所有可能结果”
 
 ##### 例题
+
+[617. Merge Two Binary Trees 合并二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/617MergeTwoBinaryTrees.md) - easy
 
 [236. Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) - medium
 
@@ -137,7 +140,6 @@ TODO：
 ### **宽度优先搜索BFS**
 
 1. [LeetCode 200. 岛屿数量](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/number-of-islands/)
-2. [LeetCode 617. 合并二叉树](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/merge-two-binary-trees/)
 
 
 ### 4. Pattern: Merge Intervals，区间合并类型
