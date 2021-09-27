@@ -111,7 +111,7 @@ void slidingWindow(string s, string t) {
 - [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/33SearchinRotatedSortedArray.md) - medium
 - [34. Find First and Last Position of Element in Sorted Array 在排序数组中查找元素的第一个和最后一个位置](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/34FindFirstandLastPositionofElementinSortedArray.md) - medium
 
-### 4. 深度优先搜索DFS
+### 4. 深度优先搜索 DFS
 
 ##### 求解
 
@@ -124,11 +124,33 @@ void slidingWindow(string s, string t) {
 
 ##### 例题
 
-[617. Merge Two Binary Trees 合并二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/617MergeTwoBinaryTrees.md) - easy
+- [617. Merge Two Binary Trees 合并二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/617MergeTwoBinaryTrees.md) - easy
+- [236. Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) - medium
+- [301. Remove Invalid Parentheses 删除无效的括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/301RemoveInvalidParentheses.md) - hard
 
-[236. Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) - medium
+### 5. 回溯
 
-[301. Remove Invalid Parentheses 删除无效的括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/301RemoveInvalidParentheses.md) - hard
+##### 求解
+
+- 标准回溯：递归 + 回溯
+- 广义回溯：递归，全排列
+- 维护当前进行的步骤情况
+
+##### 关键字
+
+- “全排列”、“全部组合”
+
+##### 例题
+
+- [22. Generate Parentheses 括号生成](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/22GenerateParentheses.md) - medium
+- [39. Combination Sum 组合总和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/39CombinationSum.md) - medium
+- [40. Combination Sum II 组合总和 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/40CombinationSumII.md) - medium
+- [51. N-Queens](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/51N-Queens.md) - hard
+- [52. N-QueensII](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/52N-QueensII.md) - hard
+- [78. Subsets 子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/78Subsets.md) - medium
+- [79. Word Search 单词搜索](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/79WordSearch.md) - medium
+
+
 
 
 ---
@@ -198,17 +220,6 @@ Topological Sort (medium)Tasks Scheduling (medium)Tasks Scheduling Order (medium
 
 1. [LeetCode 139. 单词拆分](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/word-break/)
 2. [LeetCode 208. 实现 Trie (前缀树)](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/implement-trie-prefix-tree/)
-
-### **递归&回溯**
-
-1. [LeetCode 17. 电话号码的字母组合](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
-2. [LeetCode 22. 括号生成](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/generate-parentheses/)
-3. [LeetCode 39. 组合总和](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/combination-sum/)
-4. [LeetCode 46. 全排列](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/permutations/)
-5. [LeetCode 78. 子集](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/subsets/)
-6. [LeetCode 79. 单词搜索](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/word-search/)
-7. [LeetCode 226. 翻转二叉树](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/invert-binary-tree/)
-
 
 
 ### **最短路算法**
