@@ -392,6 +392,8 @@
 
 [445. Add Two Numbers II 两数相加 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/445AddTwoNumbersII.md) - medium
 
+[453. Minimum Moves to Equal Array Elements 最小操作次数使数组元素相等](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/453MinimumMovestoEqualArrayElements.md) - easy
+
 [454. 4 Sum II 四数相加 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/4544SumII.md) - medium
 
 [459. Repeated Substring Pattern 重复字符串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/459RepeatedSubstringPattern.md) - easy
