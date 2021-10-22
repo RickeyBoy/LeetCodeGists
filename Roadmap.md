@@ -108,6 +108,7 @@ void slidingWindow(string s, string t) {
 
 ##### 例题
 
+- [278. First Bad Version 第一个错误的版本](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/278FirstBadVersion.md) - easy
 - [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/33SearchinRotatedSortedArray.md) - medium
 - [34. Find First and Last Position of Element in Sorted Array 在排序数组中查找元素的第一个和最后一个位置](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/34FindFirstandLastPositionofElementinSortedArray.md) - medium
 
