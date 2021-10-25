@@ -192,6 +192,8 @@
 
 [34. Find First and Last Position of Element in Sorted Array 在排序数组中查找元素的第一个和最后一个位置](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/34FindFirstandLastPositionofElementinSortedArray.md) - medium
 
+[35. Search Insert Position 搜索插入的位置](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/35SearchInsertPosition.md) - easy
+
 [36. Valid Sudoku 有效的数独](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/36ValidSudoku.md) - medium
 
 [39. Combination Sum 组合总和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/39CombinationSum.md) - medium
