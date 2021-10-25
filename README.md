@@ -480,6 +480,8 @@
 
 [973. K Closest Points to Origin 最接近原点的 K 个点](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/973KClosestPointstoOrigin.md) - medium
 
+[977. Squares of a Sorted Array 有序数组的平方](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/977SquaresofaSortedArray.md) - medium
+
 [990. Satisfiability of Equality Equations 等式方程的可满足性](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/990SatisfiabilityofEqualityEquations.md) - medium
 
 [992. Subarrays with K Different Integers K 个不同整数的子数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/992SubarrayswithKDifferentIntegers.md) - hard
