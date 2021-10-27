@@ -316,6 +316,8 @@
 
 [155. Min Stack 最小栈](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/155MinStack.md) - easy
 
+[167. Two Sum II - Input array is sorted 两数之和 II - 输入有序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/167TwoSumIIInputarrayissorted.md) - easy
+
 [169. Majority Element 多数元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/169MajorityElement.md) - easy
 
 [188. Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/188BestTimetoBuyandSellStockIV.md) - hard
