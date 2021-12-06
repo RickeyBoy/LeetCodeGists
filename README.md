@@ -360,6 +360,8 @@
 
 [278. First Bad Version 第一个错误的版本](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/278FirstBadVersion.md) - easy
 
+[279. Perfect Squares 完全平方数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/279PerfectSquares.md) - medium
+
 [283. Move Zeroes 移动零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/283MoveZeroes.md) - easy
 
 [301. Remove Invalid Parentheses 删除无效的括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/301RemoveInvalidParentheses.md) - hard

@@ -151,6 +151,34 @@ void slidingWindow(string s, string t) {
 - [78. Subsets 子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/78Subsets.md) - medium
 - [79. Word Search 单词搜索](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/79WordSearch.md) - medium
 
+### 6. 宽度优先搜索 BFS
+
+##### 求解：
+
+- 定义通用 bfs 函数，函数需要拼上每一步需要的参数
+- 递归调用，每一次递归都需要探索当前的所有可能
+- 通常可以转化为二叉树 or 图的问题
+
+##### 关键字
+
+- "二叉树"、"区域（图）"
+
+##### 例题：
+
+- [102. Binary Tree Level Order Traversal 二叉树的层次遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/102BinaryTreeLevelOrderTraversal.md) - medium
+- [200. Number of Islands 岛屿数量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/200NumberofIslands.md) - medium
+- [279. Perfect Squares 完全平方数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/279PerfectSquares.md) - medium
+- [617. Merge Two Binary Trees 合并二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/617MergeTwoBinaryTrees.md) - easy
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -160,9 +188,7 @@ TODO：
 
 
 
-### **宽度优先搜索BFS**
-
-1. [LeetCode 200. 岛屿数量](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/number-of-islands/)
+1. https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/number-of-islands/)
 
 
 ### 4. Pattern: Merge Intervals，区间合并类型
