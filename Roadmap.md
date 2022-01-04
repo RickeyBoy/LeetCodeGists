@@ -4,6 +4,8 @@
 > (https://www.zhihu.com/question/36738189/answer/908664455)
 >
 > ACM金牌选手整理的【LeetCode刷题顺序】 - 编程熊的文章 - 知乎 https://zhuanlan.zhihu.com/p/388470520
+>
+> 数据结构参考：https://labuladong.gitee.io/algo/1/
 
 ## TODO
 1. 按照这个顺序再刷题
@@ -12,6 +14,10 @@
 
 
 ## 数据结构
+
+### 1. 链表
+
+
 
 
 
