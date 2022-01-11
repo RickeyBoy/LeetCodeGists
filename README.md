@@ -316,6 +316,8 @@
 
 [155. Min Stack 最小栈](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/155MinStack.md) - easy
 
+[160. Intersection of Two Linked Lists 相交链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/160IntersectionofTwoLinkedLists.md) - easy
+
 [167. Two Sum II - Input array is sorted 两数之和 II - 输入有序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/167TwoSumIIInputarrayissorted.md) - easy
 
 [169. Majority Element 多数元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/169MajorityElement.md) - easy
