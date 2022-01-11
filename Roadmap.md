@@ -17,6 +17,8 @@
 
 ### 1. 链表
 
+https://github.com/RickeyBoy/LeetCodeGists/blob/master/ListNode.md
+
 
 
 

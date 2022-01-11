@@ -31,7 +31,7 @@ priority_queue <ListNode*, vector<ListNode*>, compare> queue; // 小顶堆
 
 - 环起点寻找方式
 
-![rickey_4909](/Users/rickey/Desktop/Swift/LeetCodeGists/images/rickey_4909.png)
+![rickey_4909](https://github.com/RickeyBoy/LeetCodeGists/blob/master/images/rickey_4909.png?raw=true)
 
 
 
