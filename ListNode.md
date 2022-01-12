@@ -13,6 +13,8 @@
 | 5    | [141. 环形链表（简单）](https://leetcode-cn.com/problems/linked-list-cycle/) | 快慢指针                            |                      | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/141LinkedListCycle.md) |
 | 6    | [142. 环形链表 II（中等）](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | 快慢指针 + 链表起点                 |                      | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/142LinkedListCycleII.md) |
 | 7    | [160. 相交链表（简单）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | 计数遍历两次 or 首尾相连 + 环形链表 | 要求不改变环结构     | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/160IntersectionofTwoLinkedLists.md) |
+| 8    | [206. 反转链表（简单）](https://leetcode-cn.com/problems/reverse-linked-list/) | 两个指针+一个临时指针               | 【基础题】           | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/206ReverseLinkedList.md) |
+| 9    | [92. 反转链表II（中等）](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | 头插法                              | 【重点题】           | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/92ReverseLinkedListII.md) |
 
 ### 技巧
 
@@ -33,5 +35,7 @@ priority_queue <ListNode*, vector<ListNode*>, compare> queue; // 小顶堆
 
 ![rickey_4909](https://github.com/RickeyBoy/LeetCodeGists/blob/master/images/rickey_4909.png?raw=true)
 
+- 反转链表
 
+![rickey_4923](https://github.com/RickeyBoy/LeetCodeGists/blob/master/images/rickey_4923.png?raw=true)
 
