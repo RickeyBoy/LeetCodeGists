@@ -478,6 +478,8 @@
 
 [887. Super Egg Drop 鸡蛋掉落](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/887SuperEggDrop.md) - hard
 
+[889. Construct Binary Tree from Preorder and Postorder Traversal 根据前序和后序遍历构造二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/889ConstructBinaryTreefromPreorderandPostorderTraversal.md) - medium
+
 [922. Sort Array By Parity II 按奇偶排序数组 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/922SortArrayByParityII.md) - easy
 
 [941. Valid Mountain Array 有效的山脉数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/941ValidMountainArray.md) - easy
