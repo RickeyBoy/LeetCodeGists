@@ -1,7 +1,5 @@
 # LeetCode 链表
 
-
-
 ### 概述
 
 |      | LeetCode                                                     | 方法                                | 备注                 |                                                              |

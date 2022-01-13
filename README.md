@@ -270,6 +270,8 @@
 
 [105. Construct Binary Tree from Preorder and Inorder Traversal 从前序与中序遍历序列构造二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/105ConstructBinaryTreefromPreorderandInorderTraversal.md) - medium
 
+[106. Construct Binary Tree from Inorder and Postorder Traversal 从中序与后序遍历序列构造二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/106ConstructBinaryTreefromInorderandPostorderTraversal.md) - medium
+
 [112. Path Sum 路径总和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/112PathSum.md) - easy
 
 [114. Flatten Binary Tree to Linked List 二叉树展开为链表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/114FlattenBinaryTreetoLinkedList.md) - medium
