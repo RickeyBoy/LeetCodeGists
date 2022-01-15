@@ -1,12 +1,34 @@
-# 堆（二叉堆、优先队列）
+# LeetCode 二叉堆
+
+### 概述
+
+|      | LeetCode                                                     | 方法                         | 备注                 |                                                              |
+| ---- | ------------------------------------------------------------ | ---------------------------- | -------------------- | ------------------------------------------------------------ |
+| 1    | [23. 合并K个升序链表（困难）](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | 优先级队列（二叉堆） + dummy | 【重点题】+ 求复杂度 | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/23MergekSortedLists.md) |
+| 2    | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | 大顶堆                       |                      | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/215KthLargestElementinanArray.md) |
+
+### 二叉堆基础概念
 
 > 参考：https://oi-wiki.org/ds/binary-heap/
 
 堆是一棵树，其每个节点都有一个键值，且每个节点的键值都大于等于/小于等于其父亲的键值。
 
+![rickey_4951](/Users/rickey/Desktop/Swift/LeetCodeGists/images/rickey_4951.png)
+
 STL 中的 priority_queue 其实就是一个大根堆。
 
+```cpp
+// 声明方式 小顶堆
+struct compare {
+	bool operator()(ListNode* a, ListNode* b) {
+		return a->val > b->val;
+	}
+};
+priority_queue <ListNode*, vector<ListNode*>, compare> queue; 
+```
+
 ### 二叉堆特性
+
 - 完全二叉树
 - 插入 $O(logn)$
 - 查询最大值 $O(1)$
@@ -18,11 +40,13 @@ STL 中的 priority_queue 其实就是一个大根堆。
 ### 二叉堆操作
 
 ##### 查询最大值
+
 > priority_queue.top
 
 1. 直接获取 root 节点
 
 ##### 插入操作
+
 > priority_queue.push
 
 1. 从最下层最右侧（如果满了就新开一层）插入新叶子节点
@@ -30,11 +54,12 @@ STL 中的 priority_queue 其实就是一个大根堆。
 3. 循环比较，直到叶子节点满足大根堆
 
 ##### 删除最大值
+
 > priority_queue.pop
 
 1. 将最下层最右侧的叶子节点放到根节点，原有根节点删除
 2. 向下调整：选择两个叶子节点中的更大值，和根节点进行位置互换
-3. 循环比较，知道节点满足大根堆
+3. 循环比较，直到节点满足大根堆
 
 ##### 增大元素的值
 
@@ -88,9 +113,5 @@ void build_heap_2() {
   for (i = n; i >= 1; i--) down(i);
 }
 ```
-
-
-
-
 
 
