@@ -23,7 +23,9 @@ https://github.com/RickeyBoy/LeetCodeGists/blob/master/ListNode.md
 
 https://github.com/RickeyBoy/LeetCodeGists/blob/master/BinaryTree.md
 
+### 3. 二叉堆
 
+https://github.com/RickeyBoy/LeetCodeGists/blob/master/BinaryHeap.md
 
 ## 基础类型
 

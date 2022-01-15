@@ -46,8 +46,6 @@
 
 [Binary Count 1 二进制数中 1 的个数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/BinaryCount1.md)
 
-[Priority Queue 二叉堆(优先队列)](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Priority_Queue.md)
-
 [binary Search 二分查找](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/704binarySearch.md)
 
 ### 剑指 offer 解题记录
