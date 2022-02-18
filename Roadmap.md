@@ -186,25 +186,25 @@ void slidingWindow(string s, string t) {
 
 
 
-
+## 高级类型
 
 TODO
 
-### **字典树Trie**
+### **1. 字典树Trie**
 
 1. [LeetCode 139. 单词拆分](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/word-break/)
 2. [LeetCode 208. 实现 Trie (前缀树)](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/implement-trie-prefix-tree/)
 
 
-### **最短路算法**
+### **2. 最短路算法**
 
 1. [LeetCode 743. 网络延迟时间](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/network-delay-time/)
 
-### **最小生成树**
+### **3. 最小生成树**
 
 1. [1584. 连接所有点的最小费用](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/min-cost-to-connect-all-points/)
 
-### **拓扑排序**
+### **4. 拓扑排序**
 
 1. [LeetCode 207. 课程表](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/course-schedule/)
 
@@ -323,8 +323,8 @@ dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 ### 3. Fibonacci Numbers，斐波那契数列，6个题
 
 - [70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/70ClimbingStairs.md) - easy
-
-Fibonacci numbers，斐波那契数列问题Staircase，爬楼梯问题Number factors，分解因子问题Minimum jumps to reach the end，蛙跳最小步数问题Minimum jumps with fee，蛙跳带有代价的问题House thief，偷房子问题
+- [509. Fibonacci Number 斐波那契数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/509FibonacciNumber.md) - easy
+- [264. Ugly Number II 丑数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/264UglyNumberII.md) - medium
 
 ### 4. Palindromic Subsequence，回文子系列，5个题
 
