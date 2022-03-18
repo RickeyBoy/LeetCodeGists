@@ -17,15 +17,15 @@
 
 ### 1. 链表
 
-https://github.com/RickeyBoy/LeetCodeGists/blob/master/ListNode.md
+https://github.com/RickeyBoy/LeetCodeGists/blob/master/dataStructure/ListNode.md
 
 ### 2. 二叉树
 
-https://github.com/RickeyBoy/LeetCodeGists/blob/master/BinaryTree.md
+https://github.com/RickeyBoy/LeetCodeGists/blob/master/dataStructure/BinaryTree.md
 
 ### 3. 二叉堆
 
-https://github.com/RickeyBoy/LeetCodeGists/blob/master/BinaryHeap.md
+https://github.com/RickeyBoy/LeetCodeGists/blob/master/dataStructure/BinaryHeap.md
 
 ## 基础类型
 
@@ -327,6 +327,8 @@ dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 - [264. Ugly Number II 丑数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/264UglyNumberII.md) - medium
 
 ### 4. Palindromic Subsequence，回文子系列，5个题
+
+https://zhuanlan.zhihu.com/p/61166108
 
 Longest Palindromic Subsequence，最长回文子序列Longest Palindromic Substring，最长回文子字符串Count of Palindromic Substrings，最长子字符串的个数问题Minimum Deletions in a String to make it a Palindrome，怎么删掉最少字符构成回文Palindromic Partitioning，怎么分配字符，形成回文
 
