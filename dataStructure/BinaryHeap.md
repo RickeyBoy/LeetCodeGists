@@ -13,7 +13,7 @@
 
 堆是一棵树，其每个节点都有一个键值，且每个节点的键值都大于等于/小于等于其父亲的键值。
 
-![rickey_4951](/Users/rickey/Desktop/Swift/LeetCodeGists/images/rickey_4951.png)
+![rickey_4951](https://github.com/RickeyBoy/LeetCodeGists/blob/master/images/rickey_4951.png?raw=true)
 
 STL 中的 priority_queue 其实就是一个大根堆。
 
@@ -113,5 +113,4 @@ void build_heap_2() {
   for (i = n; i >= 1; i--) down(i);
 }
 ```
-
 

@@ -1,10 +1,28 @@
 ### [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
 
-难度简单713收藏分享切换为英文关闭提醒反馈
-
 翻转一棵二叉树。
 
-### 解法
+### 解法一：递归
+
+```cpp
+class Solution {
+public:
+    TreeNode* invertTree(TreeNode* root) {
+        if (root == nullptr) {
+				return root;
+		}
+		TreeNode* l1 = invertTree(root->left);
+		TreeNode* r1 = invertTree(root->right);
+		root->left = r1;
+		root->right = l1;
+		return root;
+    }
+};
+```
+
+
+
+### 解法二：层次遍历
 
 ```cpp
 class Solution {
