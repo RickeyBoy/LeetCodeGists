@@ -20,8 +20,6 @@
 
 [Topological sorting - 拓扑排序](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/TopologicalSorting.md)(eg. 207,210)
 
-[Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/UnionFind_Algorithm.md)(eg. 130,200)
-
 [Boyer-Moore Voting Algorithm - 摩尔投票算法](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Boyer_Moore_Voting_Algorithm.md)(eg. 169, 229)
 
 [Bezouts lemma - 裴蜀定理](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Bezouts_lemma..md)(eg. 365)
@@ -38,15 +36,9 @@
 
 [Palindrome - 回文串判定](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Palindrome.md)
 
-[Union Find - 并查集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/UnionFind.md)
-
-[Binary Tree 二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/BinaryTree.md)
-
 [Trie 字典树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Trie.md)
 
 [Binary Count 1 二进制数中 1 的个数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/BinaryCount1.md)
-
-[binary Search 二分查找](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/704binarySearch.md)
 
 ### 剑指 offer 解题记录
 

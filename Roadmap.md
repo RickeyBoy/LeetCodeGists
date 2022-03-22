@@ -27,6 +27,10 @@ https://github.com/RickeyBoy/LeetCodeGists/blob/master/dataStructure/BinaryTree.
 
 https://github.com/RickeyBoy/LeetCodeGists/blob/master/dataStructure/BinaryHeap.md
 
+### 4. 并查集
+
+https://github.com/RickeyBoy/LeetCodeGists/blob/master/dataStructure/UnionFind.md
+
 ## 基础类型
 
 ### 1. Sliding window，滑动窗口类型
@@ -77,11 +81,11 @@ void slidingWindow(string s, string t) {
 
 ##### 例题
 
-- [438. Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/438FindAllAnagramsinaString.md) - medium
-- [76. Minimum Window Substring 最小覆盖子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/76MinimumWindowSubstring.md) - hard
 - [3. Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/3LongestSubstringWithoutRepeatingCharacters.md) - medium
+- [76. Minimum Window Substring 最小覆盖子串](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/76MinimumWindowSubstring.md) - hard
 - [567. Permutation in String 字符串的排列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/567PermutationinString.md) - medium
 - [992. Subarrays with K Different Integers K 个不同整数的子数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/992SubarrayswithKDifferentIntegers.md) - hard
+- [438. Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/438FindAllAnagramsinaString.md) - medium
 
 ##### 参考资料
 
@@ -116,8 +120,32 @@ void slidingWindow(string s, string t) {
 
 - 注意二分的边界条件
 
+##### 模板
+
+```cpp
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        int left = 0;
+        int right = nums.size()-1;
+        while (right >= left) {
+            int mid = (right - left) / 2 + left;
+            if (nums[mid]==target) {
+                return mid;
+            } else if (nums[mid]<target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return -1;
+    }
+};
+```
+
 ##### 例题
 
+- [69. Sqrt(x) x 的平方根](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/69Sqrt(x).md) - easy
 - [278. First Bad Version 第一个错误的版本](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/278FirstBadVersion.md) - easy
 - [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/33SearchinRotatedSortedArray.md) - medium
 - [34. Find First and Last Position of Element in Sorted Array 在排序数组中查找元素的第一个和最后一个位置](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/34FindFirstandLastPositionofElementinSortedArray.md) - medium
@@ -135,11 +163,30 @@ void slidingWindow(string s, string t) {
 
 ##### 例题
 
+- [704. binary Search 二分查找](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/704binarySearch.md) - easy
 - [617. Merge Two Binary Trees 合并二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/617MergeTwoBinaryTrees.md) - easy
 - [236. Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) - medium
 - [301. Remove Invalid Parentheses 删除无效的括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/301RemoveInvalidParentheses.md) - hard
 
-### 5. 回溯
+### 5. 宽度优先搜索 BFS
+
+##### 求解：
+
+- 定义通用 bfs 函数，函数需要拼上每一步需要的参数
+- 递归调用，每一次递归都需要探索当前的所有可能
+- 通常可以转化为二叉树 or 图的问题
+
+##### 关键字
+
+- "二叉树"、"区域（图）"
+
+##### 例题：
+
+- [102. Binary Tree Level Order Traversal 二叉树的层次遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/102BinaryTreeLevelOrderTraversal.md) - medium
+- [200. Number of Islands 岛屿数量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/200NumberofIslands.md) - medium
+- [279. Perfect Squares 完全平方数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/279PerfectSquares.md) - medium
+
+### 6. 回溯
 
 ##### 求解
 
@@ -161,60 +208,22 @@ void slidingWindow(string s, string t) {
 - [78. Subsets 子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/78Subsets.md) - medium
 - [79. Word Search 单词搜索](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/79WordSearch.md) - medium
 
-### 6. 宽度优先搜索 BFS
-
-##### 求解：
-
-- 定义通用 bfs 函数，函数需要拼上每一步需要的参数
-- 递归调用，每一次递归都需要探索当前的所有可能
-- 通常可以转化为二叉树 or 图的问题
-
-##### 关键字
-
-- "二叉树"、"区域（图）"
-
-##### 例题：
-
-- [102. Binary Tree Level Order Traversal 二叉树的层次遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/102BinaryTreeLevelOrderTraversal.md) - medium
-- [200. Number of Islands 岛屿数量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/200NumberofIslands.md) - medium
-- [279. Perfect Squares 完全平方数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/279PerfectSquares.md) - medium
-- [617. Merge Two Binary Trees 合并二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/617MergeTwoBinaryTrees.md) - easy
-
-
-
-
-
-
-
-## 高级类型
-
-TODO
-
-### **1. 字典树Trie**
-
-1. [LeetCode 139. 单词拆分](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/word-break/)
-2. [LeetCode 208. 实现 Trie (前缀树)](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/implement-trie-prefix-tree/)
-
-
-### **2. 最短路算法**
-
-1. [LeetCode 743. 网络延迟时间](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/network-delay-time/)
-
-### **3. 最小生成树**
-
-1. [1584. 连接所有点的最小费用](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/min-cost-to-connect-all-points/)
-
-### **4. 拓扑排序**
-
-1. [LeetCode 207. 课程表](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/course-schedule/)
-
-
-
-
-
 
 
 ## 动态规划
+
+### 0. Fibonacci Numbers 斐波那契数列 
+
+##### 求解
+
+- 一维线性递推公式
+- 可以使用特征根
+
+##### 例题
+
+- [70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/70ClimbingStairs.md) - easy
+- [509. Fibonacci Number 斐波那契数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/509FibonacciNumber.md) - easy
+- [264. Ugly Number II 丑数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/264UglyNumberII.md) - medium
 
 ### 1. 0/1 Knapsack, 0/1背包 & Unbounded Knapsack, 无限背包
 
@@ -251,8 +260,8 @@ int knapsack(int W, int N, vector<int>& wt, vector<int>& val) {
 
 - 子集背包： [416. Partition Equal Subset Sum 分割等和子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/416PartitionEqualSubsetSum.md) - medium
 - 01 背包：
-  - [474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
   - [494. Target Sum 目标和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/494TargetSum.md) - medium
+  - [474. Ones and Zeroes 一和零](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/474OnesandZeroes.md) - medium
 - 完全背包：[518. Coin Change 2 零钱兑换 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/518CoinChange2.md) - medium
 
 ### 2. Subsequence 子序列问题
@@ -292,9 +301,8 @@ for (int i = 0; i < n; i++) {
 ##### 例题
 
 - LCS：[1143. Longest Common Subsequence 最长公共子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1143LongestCommonSubsequence.md) - medium
-- 编辑距离：[72. Edit Distance 编辑距离](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/72EditDistance.md) - hard
 - LCS：[516. Longest Palindromic Subsequence 最长回文子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/516LongestPalindromicSubsequence.md) - medium
-- 一维 dp：[53. Maximum Subarray 最大子序和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/53MaximumSubarray.md) - easy
+- 编辑距离：[72. Edit Distance 编辑距离](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/72EditDistance.md) - hard
 
 ### 3. State Machine 状态机
 
@@ -320,21 +328,72 @@ dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 - [309. Best Time to Buy and Sell Stock with Cooldown 最佳买卖股票时机含冷冻期](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/309BestTimetoBuyandSellStockwithCooldown.md) - medium
 - [714. Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/714BestTimetoBuyandSellStockwithTransactionFee.md) - medium
 
-### 3. Fibonacci Numbers，斐波那契数列，6个题
 
-- [70. Climbing Stairs 爬楼梯](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/70ClimbingStairs.md) - easy
-- [509. Fibonacci Number 斐波那契数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/509FibonacciNumber.md) - easy
-- [264. Ugly Number II 丑数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/264UglyNumberII.md) - medium
 
-### 4. Palindromic Subsequence，回文子系列，5个题
+## 高级类型
+
+TODO
+
+### **1. 字典树Trie**
+
+1. [LeetCode 139. 单词拆分](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/word-break/)
+2. [LeetCode 208. 实现 Trie (前缀树)](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/implement-trie-prefix-tree/)
+
+
+### **2. 最短路算法**
+
+1. [LeetCode 743. 网络延迟时间](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/network-delay-time/)
+
+### **3. 最小生成树**
+
+1. [1584. 连接所有点的最小费用](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/min-cost-to-connect-all-points/)
+
+### **4. 拓扑排序**
+
+1. [LeetCode 207. 课程表](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/course-schedule/)
+
+
+
+## 系列题目
+
+### 1. 排序
+
+
+
+### 2. 回文子系列
 
 https://zhuanlan.zhihu.com/p/61166108
 
 Longest Palindromic Subsequence，最长回文子序列Longest Palindromic Substring，最长回文子字符串Count of Palindromic Substrings，最长子字符串的个数问题Minimum Deletions in a String to make it a Palindrome，怎么删掉最少字符构成回文Palindromic Partitioning，怎么分配字符，形成回文
 
-### 5. Longest Common Substring，最长子字符串系列，13个题
-
-Longest Common Substring，最长相同子串Longest Common Subsequence，最长相同子序列Minimum Deletions & Insertions to Transform a String into another，字符串变换Longest Increasing Subsequence，最长上升子序列Maximum Sum Increasing Subsequence，最长上升子序列和Shortest Common Super-sequence，最短超级子序列Minimum Deletions to Make a Sequence Sorted，最少删除变换出子序列Longest Repeating Subsequence，最长重复子序列Subsequence Pattern Matching，子序列匹配Longest Bitonic Subsequence，最长字节子序列Longest Alternating Subsequence，最长交差变换子序列Edit Distance，编辑距离Strings Interleaving，交织字符串
 
 
+### 3. TwoSum 系列
+
+- [1. Two Sum 两数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1TwoSum.md) - easy
+- [15. 3Sum 三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/15ThreeSum.md) - medium
+- [16. 3Sum Closest 最接近的三数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/16ThreeSumClosest.md) - medium
+- [18. 4Sum 四数之和](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/184Sum.md) - medium
+
+
+
+### 4. N 皇后问题
+
+- [51. N-Queens](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/51N-Queens.md) - hard
+- [52. N-QueensII](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/52N-QueensII.md) - hard
+
+
+
+### 5. 股票手续费问题
+
+- [121. Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/121BestTimetoBuyandSellStock.md) - easy
+- [122. Best Time to Buy and Sell Stock II 买卖股票的最佳时机 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/122BestTimetoBuyandSellStockII.md) - easy
+- [123. Best Time to Buy and Sell Stock III 买卖股票的最佳时机 III](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/123BestTimetoBuyandSellStockIII.md) - hard
+- [188. Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/188BestTimetoBuyandSellStockIV.md) - hard
+- [309. Best Time to Buy and Sell Stock with Cooldown 最佳买卖股票时机含冷冻期](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/309BestTimetoBuyandSellStockwithCooldown.md) - medium
+- [714. Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/714BestTimetoBuyandSellStockwithTransactionFee.md) - medium
+
+
+
+## 特殊算法
 
