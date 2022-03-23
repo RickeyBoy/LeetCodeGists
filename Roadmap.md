@@ -1,19 +1,14 @@
 # Rickey's Roadmap
 
-> 参考链接：[LeetCode按照怎样的顺序来刷题比较好？ - 知乎]
-> (https://www.zhihu.com/question/36738189/answer/908664455)
->
-> ACM金牌选手整理的【LeetCode刷题顺序】 - 编程熊的文章 - 知乎 https://zhuanlan.zhihu.com/p/388470520
->
-> 数据结构参考：https://labuladong.gitee.io/algo/1/
 
-## TODO
-1. 按照这个顺序再刷题
-2. 每个类型应该有原理 + 方法论 + 模板 + 题目分析 + 例题合集
 
 
 
 ## 数据结构
+
+### 0. 常见操作
+
+https://github.com/RickeyBoy/LeetCodeGists/blob/master/dataStructure/Basic.md
 
 ### 1. 链表
 
@@ -358,7 +353,7 @@ TODO
 
 ### 1. 排序
 
-
+https://github.com/RickeyBoy/LeetCodeGists/blob/master/series/sort.md
 
 ### 2. 回文子系列
 
@@ -397,3 +392,14 @@ Longest Palindromic Subsequence，最长回文子序列Longest Palindromic Subst
 
 ## 特殊算法
 
+
+
+
+
+## 参考资料
+
+[LeetCode按照怎样的顺序来刷题比较好？ - 知乎](https://www.zhihu.com/question/36738189/answer/908664455)
+
+[ACM金牌选手整理的【LeetCode刷题顺序】 - 编程熊的文章 - 知乎](https://zhuanlan.zhihu.com/p/388470520)
+
+[数据结构参考 - labuladong](https://labuladong.gitee.io/algo/1/)
