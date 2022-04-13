@@ -140,6 +140,7 @@ public:
 
 ##### 例题
 
+- [704. binary Search 二分查找](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/704binarySearch.md) - easy
 - [69. Sqrt(x) x 的平方根](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/69Sqrt(x).md) - easy
 - [278. First Bad Version 第一个错误的版本](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/278FirstBadVersion.md) - easy
 - [33. Search in Rotated Sorted Array 搜索旋转排序数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/33SearchinRotatedSortedArray.md) - medium
@@ -158,7 +159,6 @@ public:
 
 ##### 例题
 
-- [704. binary Search 二分查找](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/704binarySearch.md) - easy
 - [617. Merge Two Binary Trees 合并二叉树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/617MergeTwoBinaryTrees.md) - easy
 - [236. Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) - medium
 - [301. Remove Invalid Parentheses 删除无效的括号](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/301RemoveInvalidParentheses.md) - hard

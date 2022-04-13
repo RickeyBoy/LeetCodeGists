@@ -380,6 +380,8 @@
 
 [365. Water and Jug Problem 水壶问题](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/365WaterandJugProblem.md) - easy
 
+[380. Insert Delete Get Random O(1) O(1) 时间插入、删除和获取随机元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/380InsertDeleteGetRandom.md) - medium
+
 [389. Find the Difference 找不同](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/389FindtheDifference.md) - easy
 
 [392. Is Subsequence 判断子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/392IsSubsequence.md) - easy

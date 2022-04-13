@@ -69,7 +69,7 @@ priority_queue <ListNode*, vector<ListNode*>, compare> queue;
 
 考虑使用一个序列 $h$ 来表示堆。$h_i$ 的两个儿子分别是 $h_{2i}$ 和 $h_{2i+1}$，1 是根结点。
 
-##### 向上调整
+##### 向上调整（叶子节点不断向上）
 
 ```cpp
 void up(int x) {
@@ -80,7 +80,7 @@ void up(int x) {
 }
 ```
 
-##### 向下调整
+##### 向下调整（根节点不断向下）
 
 ```cpp
 void down(int x) {
@@ -102,7 +102,7 @@ void down(int x) {
 
 ```cpp
 void build_heap_2() {
-  for (i = n; i >= 1; i--) down(i);
+  for (i = n; i >= 1; i--) up(i);
 }
 ```
 
