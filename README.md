@@ -196,6 +196,8 @@
 
 [46. Permutations 全排列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/46Permutations.md) - medium
 
+[48. Rotate Image 旋转图像](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/48RotateImage.md) - medium
+
 [50. Pow(x,n)](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/50Pow(x,n).md) - medium
 
 [51. N-Queens](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/51N-Queens.md) - hard
