@@ -208,6 +208,8 @@
 
 [54. Spiral Matrix 螺旋矩阵](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/54SpiralMatrix.md) - medium
 
+[55. Jump Game 跳跃游戏](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/55JumpGame.md) - medium
+
 [57. Insert Interval 插入区间](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/57InsertInterval.md) - hard
 
 [59. Spiral Matrix II 螺旋矩阵 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/59SpiralMatrixII.md) - medium
