@@ -108,6 +108,8 @@
 
 [面试题 01.07. 旋转矩阵](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview01_07.md) - medium
 
+[面试题 04.06. 后继者](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview04_06.md) - medium
+
 [面试题 10.01. 合并排序的数组](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview10_01.md) - easy（与 343 题相同）
 
 [面试题 16.11. 跳水板](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview16_11.md) - easy

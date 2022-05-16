@@ -329,23 +329,27 @@ dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 
 TODO
 
-### **1. 字典树Trie**
+### 1. 字典树Trie
 
 1. [LeetCode 139. 单词拆分](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/word-break/)
 2. [LeetCode 208. 实现 Trie (前缀树)](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/implement-trie-prefix-tree/)
 
 
-### **2. 最短路算法**
+### 2. 最短路算法
 
 1. [LeetCode 743. 网络延迟时间](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/network-delay-time/)
 
-### **3. 最小生成树**
+### 3. 最小生成树
 
 1. [1584. 连接所有点的最小费用](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/min-cost-to-connect-all-points/)
 
-### **4. 拓扑排序**
+### 4. 拓扑排序
 
 1. [LeetCode 207. 课程表](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/course-schedule/)
+
+### 5. 二叉搜索树
+
+1. [面试题 04.06. 后继者](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/interview04_06.md) - medium
 
 
 
