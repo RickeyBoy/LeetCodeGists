@@ -518,6 +518,8 @@
 
 [1160. Find Words That Can Be Formed by Characters 拼写单词](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1160FindWordsThatCanBeFormedbyCharacters.md) - easy
 
+[1252. Cells with Odd Values in a Matrix 奇数值单元格的数目](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1252CellswithOddValuesinaMatrix.md) - easy
+
 [1267. Count Servers that Communicate 统计参与通信的服务器](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1267CountServersthatCommunicate.md) - medium
 
 [1310. XOR Queries of a Subarray 子数组异或查询](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1310XORQueriesofaSubarray.md) - medium
