@@ -327,13 +327,18 @@ dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 
 ## 高级类型
 
-TODO
-
 ### 1. 字典树Trie
 
-1. [LeetCode 139. 单词拆分](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/word-break/)
-2. [LeetCode 208. 实现 Trie (前缀树)](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/implement-trie-prefix-tree/)
+Todo
 
+
+
+- [139. Word Break 单词拆分](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/139WordBreak.md) - medium
+- [208. Implement Trie (Prefix Tree) 实现 Trie (前缀树)](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/208ImplementTriePrefixTree.md) - medium
+
+
+
+TODO
 
 ### 2. 最短路算法
 
