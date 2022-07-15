@@ -340,6 +340,8 @@
 
 [210. Course Schedule II 课程表 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/210CourseScheduleII.md) - medium
 
+[211. Design Add and Search Words Data Structure  添加与搜索单词 - 数据结构设计](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/211DesignAddandSearchWordsDataStructure.md) - medium
+
 [213. House Robber II 打家劫舍 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/213HouseRobberII.md) - easy
 
 [215. Kth Largest Element in an Array 数组中的第 K 个最大元素](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/215KthLargestElementinanArray.md) - medium

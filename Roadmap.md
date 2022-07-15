@@ -331,10 +331,11 @@ dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 
 Todo
 
-
+模板：[Trie 字典树](https://github.com/RickeyBoy/LeetCodeGists/blob/master/algorithm/Trie.md)
 
 - [139. Word Break 单词拆分](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/139WordBreak.md) - medium
 - [208. Implement Trie (Prefix Tree) 实现 Trie (前缀树)](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/208ImplementTriePrefixTree.md) - medium
+- [211. Design Add and Search Words Data Structure  添加与搜索单词 - 数据结构设计](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/211DesignAddandSearchWordsDataStructure.md) - medium
 
 
 
