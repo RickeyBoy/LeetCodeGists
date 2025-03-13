@@ -5,7 +5,7 @@
 |      | LeetCode                                                     | 方法            | 备注       |                                                              |
 | ---- | ------------------------------------------------------------ | --------------- | ---------- | ------------------------------------------------------------ |
 | 1    | [226. 翻转二叉树（简单）](https://leetcode-cn.com/problems/invert-binary-tree) | 递归            |            | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/226InvertBinaryTree.md) |
-| 2    | 二叉树：前序、中序、后续、层次遍历                           | 递归 and 栈辅助 | 【基础题】 |                                                              |
+| 2    | 二叉树：前序(144)、中序(94)、后续(145)、层次遍历(102)        | 递归 and 栈辅助 | 【基础题】 |                                                              |
 | 3    | [105. 从前序与中序遍历序列构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 递归            |            | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/105ConstructBinaryTreefromPreorderandInorderTraversal.md) |
 | 4    | [106. 从中序与后序遍历序列构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 递归            |            | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/106ConstructBinaryTreefromInorderandPostorderTraversal.md) |
 | 5    | [889. 根据前序和后序遍历构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 递归            |            | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/889ConstructBinaryTreefromPreorderandPostorderTraversal.md) |
@@ -15,7 +15,7 @@
 
 - 前序：根→左→右，`stack *rights`
 - 中序：左→根→右，`stack *mids`
-- 后序：左→右→根，`stack *mids`
+- 后序：左→右→根（反转：根→右→左），`stack *mids`
 - 层次遍历：`queue *nodes`
 
 ### （前序遍历 + 中序遍历）构建二叉树范例

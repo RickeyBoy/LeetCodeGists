@@ -24,34 +24,31 @@
  *     int val;
  *     TreeNode *left;
  *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        stack<TreeNode*> mids;
-        vector<int> results;
-        TreeNode* current = root;
-        while(current!=NULL) {
-            if(current->left!=NULL) {
-                mids.push(current);
-                TreeNode* temp = current->left;
-                current->left = NULL;
-                current = temp;
-            } else if(current->right!=NULL) {
-                results.push_back(current->val);
-                current = current->right;
-            } else if(mids.size()>0) {
-                results.push_back(current->val);
-                current = mids.top();
-                mids.pop();
+        stack<TreeNode*> stacks;
+        vector<int> result;
+        TreeNode* cur = root;
+
+        while(cur!=nullptr || !stacks.empty()) {
+            if (cur != nullptr) {
+                stacks.push(cur); // add current node to stacks
+                cur = cur -> left; // first go to left
             } else {
-                results.push_back(current->val);
-                current = NULL;
+                // if cur == nullptr, then start pop stacks
+                cur = stacks.top();
+                stacks.pop();
+                result.push_back(cur->val);
+                cur = cur -> right;
             }
         }
-        return results;
+        return result;
     }
 };
 ```
