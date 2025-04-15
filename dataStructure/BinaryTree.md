@@ -2,14 +2,15 @@
 
 ### 概述
 
-|      | LeetCode                                                     | 方法            | 备注       |                                                              |
-| ---- | ------------------------------------------------------------ | --------------- | ---------- | ------------------------------------------------------------ |
-| 1    | [226. 翻转二叉树（简单）](https://leetcode-cn.com/problems/invert-binary-tree) | 递归            |            | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/226InvertBinaryTree.md) |
-| 2    | 二叉树：前序(144)、中序(94)、后续(145)、层次遍历(102)        | 递归 and 栈辅助 | 【基础题】 |                                                              |
-| 3    | [105. 从前序与中序遍历序列构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 递归            |            | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/105ConstructBinaryTreefromPreorderandInorderTraversal.md) |
-| 4    | [106. 从中序与后序遍历序列构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 递归            |            | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/106ConstructBinaryTreefromInorderandPostorderTraversal.md) |
-| 5    | [889. 根据前序和后序遍历构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 递归            |            | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/889ConstructBinaryTreefromPreorderandPostorderTraversal.md) |
-| 6    | [236. 二叉树的最近公共祖先（中等）](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 递归DFS         | 【重点题】 | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) |
+|      | LeetCode                                                     | 方法              | 备注           |                                                              |
+| ---- | ------------------------------------------------------------ | ----------------- | -------------- | ------------------------------------------------------------ |
+| 1    | [226. 翻转二叉树（简单）](https://leetcode-cn.com/problems/invert-binary-tree) | 递归              |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/226InvertBinaryTree.md) |
+| 2    | 二叉树：前序(144)、中序(94)、后续(145)、层次遍历(102)        | 递归 and 栈辅助   | 【基础题】     |                                                              |
+| 3    | [105. 从前序与中序遍历序列构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 递归              |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/105ConstructBinaryTreefromPreorderandInorderTraversal.md) |
+| 4    | [106. 从中序与后序遍历序列构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 递归              |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/106ConstructBinaryTreefromInorderandPostorderTraversal.md) |
+| 5    | [889. 根据前序和后序遍历构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 递归              |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/889ConstructBinaryTreefromPreorderandPostorderTraversal.md) |
+| 6    | [236. 二叉树的最近公共祖先（中等）](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 递归DFS           | 【重点题】     | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) |
+| 7    | [230. Kth Smallest Element in a BST](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/230KthSmallestElementinaBST.md) - medium | inorder traversal | 【基础题】延伸 |                                                              |
 
 ### 遍历总结
 
@@ -93,31 +94,28 @@ public:
 ```cpp
 class Solution {
 public:
-    vector<int> inorderTraversal(TreeNode* root) {
-        // 利用栈辅助
-        stack<TreeNode*> mids;
-        vector<int> results;
-        TreeNode* current = root;
-        while(current!=NULL) {
-            if(current->left!=NULL) {
-                mids.push(current);
-                TreeNode* temp = current->left;
-                current->left = NULL;
-                current = temp;
-            } else if(current->right!=NULL) {
-                results.push_back(current->val);
-                current = current->right;
-            } else if(mids.size()>0) {
-                results.push_back(current->val);
-                current = mids.top();
-                mids.pop();
-            } else {
-                results.push_back(current->val);
-                current = NULL;
-            }
-        }
-        return results;
-    }
+  // 中序遍历：左 -> 根 -> 右（使用栈模拟递归过程）
+  vector<int> inorderTraversal(TreeNode* root) {
+      vector<int> res;
+      stack<TreeNode*> stk;                  // 栈辅助
+      TreeNode* curr = root;
+
+      while (curr != nullptr || !stk.empty()) {
+          // 一路向左走，直到最左节点
+          while (curr != nullptr) {
+              stk.push(curr);
+              curr = curr->left;
+          }
+          // 回退到上一个节点（左子树访问完毕）
+          curr = stk.top();
+        	stk.pop();
+        
+          res.push_back(curr->val);          // 记录当前节点
+          curr = curr->right;                // 继续访问右子树
+      }
+
+      return res;
+  }
 };
 ```
 
