@@ -73,6 +73,16 @@ sort (myvector.begin()+4, myvector.end(), myfunction);
 cout << accumulate(A.begin(), A.end(), 0);
 ```
 
+- stack
+
+```c++
+s.empty()               // 如果栈为空返回 true，否则返回 false  
+s.size()                // 返回栈中元素的个数  
+s.top()                 // 返回栈顶元素的值，但不删除该元素  
+s.pop()                 // 删除栈顶元素，但不返回其值  
+s.push(x)               // 向栈顶压入新元素 x  
+```
+
 - queue
 
 ```cpp
