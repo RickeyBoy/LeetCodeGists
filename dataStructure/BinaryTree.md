@@ -2,15 +2,16 @@
 
 ### 概述
 
-|      | LeetCode                                                     | 方法              | 备注           |                                                              |
-| ---- | ------------------------------------------------------------ | ----------------- | -------------- | ------------------------------------------------------------ |
-| 1    | [226. 翻转二叉树（简单）](https://leetcode-cn.com/problems/invert-binary-tree) | 递归              |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/226InvertBinaryTree.md) |
-| 2    | 二叉树：前序(144)、中序(94)、后续(145)、层次遍历(102)        | 递归 and 栈辅助   | 【基础题】     |                                                              |
-| 3    | [105. 从前序与中序遍历序列构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 递归              |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/105ConstructBinaryTreefromPreorderandInorderTraversal.md) |
-| 4    | [106. 从中序与后序遍历序列构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 递归              |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/106ConstructBinaryTreefromInorderandPostorderTraversal.md) |
-| 5    | [889. 根据前序和后序遍历构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 递归              |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/889ConstructBinaryTreefromPreorderandPostorderTraversal.md) |
-| 6    | [236. 二叉树的最近公共祖先（中等）](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 递归DFS           | 【重点题】     | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) |
-| 7    | [230. Kth Smallest Element in a BST](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/230KthSmallestElementinaBST.md) - medium | inorder traversal | 【基础题】延伸 |                                                              |
+|      | LeetCode                                                     | 方法                  | 备注           |                                                              |
+| ---- | ------------------------------------------------------------ | --------------------- | -------------- | ------------------------------------------------------------ |
+| 1    | [226. 翻转二叉树（简单）](https://leetcode-cn.com/problems/invert-binary-tree) | 递归                  |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/226InvertBinaryTree.md) |
+| 2    | 二叉树：前序(144)、中序(94)、后续(145)、层次遍历(102)        | 递归 and 栈辅助       | 【基础题】     |                                                              |
+| 3    | [105. 从前序与中序遍历序列构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 递归                  |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/105ConstructBinaryTreefromPreorderandInorderTraversal.md) |
+| 4    | [106. 从中序与后序遍历序列构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 递归                  |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/106ConstructBinaryTreefromInorderandPostorderTraversal.md) |
+| 5    | [889. 根据前序和后序遍历构造二叉树（中等）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 递归                  |                | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/889ConstructBinaryTreefromPreorderandPostorderTraversal.md) |
+| 6    | [236. 二叉树的最近公共祖先（中等）](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 递归DFS               | 【重点题】     | [解](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/236LowestCommonAncestorofaBinaryTree.md) |
+| 7    | [230. Kth Smallest Element in a BST](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/230KthSmallestElementinaBST.md) - medium | inorder traversal     | 【基础题】延伸 |                                                              |
+| 8    | [199. Binary Tree Right Side View](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/199BinaryTreeRightSideView.md) - medium | level order traversal | 【基础题】延伸 |                                                              |
 
 ### 遍历总结
 
@@ -66,24 +67,23 @@ public:
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
-        // 栈辅助
-        stack<TreeNode*> rights;
         vector<int> results;
-        TreeNode* current = root;
-        while(current != NULL) {
-            results.push_back(current->val);
-            if(current->left!=NULL) {
-                if(current->right!=NULL) rights.push(current->right);
-                current = current->left;
-            } else if(current->right!=NULL) {
-                current = current->right;
-            } else if(rights.size()>0) {
-                current = rights.top();
-                rights.pop();
-            } else {
-                current = NULL;
-            }
+        if (!root) return results;
+
+        stack<TreeNode*> stk;
+        stk.push(root);
+
+        while (!stk.empty()) {
+            TreeNode* node = stk.top();
+            stk.pop();
+
+            results.push_back(node->val);
+
+            // 先右后左，保证左子树先处理
+            if (node->right) stk.push(node->right);
+            if (node->left) stk.push(node->left);
         }
+
         return results;
     }
 };
