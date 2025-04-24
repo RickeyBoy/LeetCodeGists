@@ -40,3 +40,32 @@ public:
 };
 ```
 
+### 解法：Swift
+
+```swift
+class Solution {
+    func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
+        var dummy = ListNode()
+        var curr = dummy
+        var l1 = list1
+        var l2 = list2
+        
+        while let node1 = l1, let node2 = l2 {
+            if node1.val < node2.val {
+                curr.next = node1
+                l1 = node1.next
+            } else {
+                curr.next = node2
+                l2 = node2.next
+            }
+            curr = curr.next!
+        }
+        
+        // 连接剩余的节点
+        curr.next = l1 ?? l2
+        
+        return dummy.next
+    }
+}
+```
+

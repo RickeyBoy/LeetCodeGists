@@ -140,3 +140,16 @@ public:
 
 空间复杂度：O(1)，我们只需要使用常数级别的额外空间。
 
+
+
+### 解法 3：Swift 暴力解法
+
+```swift
+class Solution {
+    func longestCommonPrefix(_ strs: [String]) -> String {
+        guard let first = strs.min(), let last = strs.max() else { return "" }
+        return first.commonPrefix(with: last, options: .literal)
+    }
+}
+```
+
