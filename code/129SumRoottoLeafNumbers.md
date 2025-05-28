@@ -74,3 +74,43 @@ public:
     }
 };
 ```
+
+### Swift 解法
+
+Swift 中没有 Queue 的数据结构，只能自己实现，所以用每轮拷贝的方式比较方便（可以考虑双栈队列来模拟，但是最坏依旧需要额外 On 空间，且复杂）
+
+| **实现方式**              | **时间复杂度** | **空间复杂度**         | **特点说明**                       |
+| ------------------------- | -------------- | ---------------------- | ---------------------------------- |
+| Array + removeFirst()     | O(n) 出队慢    | 原始空间               | 最容易写，但性能差                 |
+| 每轮 temp 拷贝            | O(n) 出队快    | 每轮 O(n) 拷贝         | 多用于 BFS，代码结构清晰，但耗内存 |
+| 双栈 Queue<T>（均摊出队） | 均摊 O(1) 出队 | 最坏 O(n) 空间（双栈） | 推荐使用，性能稳定，空间还算可控   |
+|                           |                |                        |                                    |
+
+```swift
+class Solution {
+    func sumNumbers(_ root: TreeNode?) -> Int {
+        if root == nil { return 0 }
+        var current: [(Int, TreeNode)] = []
+        var result = 0
+        current.append((root!.val, root!))
+        while !current.isEmpty {
+            var temp: [(Int, TreeNode)] = []
+            current.forEach { (value, node) in
+                if node.left == nil && node.right == nil {
+                    // it's leaf
+                    result += value
+                }
+                if node.left != nil {
+                    temp.append((value*10+node.left!.val, node.left!))
+                }
+                if node.right != nil {
+                    temp.append((value*10+node.right!.val, node.right!))
+                }
+            }
+            current = temp
+        }
+        return result
+    }
+}
+```
+
