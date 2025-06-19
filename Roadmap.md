@@ -207,22 +207,44 @@ public:
 
 > 本质就是：**“做选择 → 递归 → 撤销选择”**
 
+**N-Queens 模板**：
+
 ```cpp
-void backtrack(参数...) {
-    // 结束条件
-    if (满足结束条件) {
-        res.push_back(当前结果);
-        return;
+class Solution {
+public:
+    vector<vector<string>> res;
+    vector<string> board;
+    unordered_set<int> cols, diag1, diag2; // 列、主对角线、次对角线
+
+    void backtrack(int row, int n) {
+        if (row == n) {
+          	// 终止条件
+            res.push_back(board);
+            return;
+        }
+        for (int col = 0; col < n; ++col) {
+            if (cols.count(col) || diag1.count(row - col) || diag2.count(row + col))
+                continue;
+            // [做选择] 放置皇后
+            board[row][col] = 'Q';
+            cols.insert(col);
+            diag1.insert(row - col);
+            diag2.insert(row + col);
+          	// [递归]
+            backtrack(row + 1, n);
+            // [回溯] 撤销选择
+            board[row][col] = '.';
+            cols.erase(col);
+            diag1.erase(row - col);
+            diag2.erase(row + col);
+        }
     }
-    for (int i = 起始位置; i < 终止条件; ++i) {
-        // 做选择
-        路径.push_back(选择);
-        // 递归进入下一层
-        backtrack(更新后的参数...);
-        // 撤销选择（回溯）
-        路径.pop_back();
+    vector<vector<string>> solveNQueens(int n) {
+        board = vector<string>(n, string(n, '.'));
+        backtrack(0, n);
+        return res;
     }
-}
+};
 ```
 
 
