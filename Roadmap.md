@@ -203,6 +203,28 @@ public:
 - [78. Subsets 子集](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/78Subsets.md) - medium
 - [79. Word Search 单词搜索](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/79WordSearch.md) - medium
 
+**代码模板**
+
+> 本质就是：**“做选择 → 递归 → 撤销选择”**
+
+```cpp
+void backtrack(参数...) {
+    // 结束条件
+    if (满足结束条件) {
+        res.push_back(当前结果);
+        return;
+    }
+    for (int i = 起始位置; i < 终止条件; ++i) {
+        // 做选择
+        路径.push_back(选择);
+        // 递归进入下一层
+        backtrack(更新后的参数...);
+        // 撤销选择（回溯）
+        路径.pop_back();
+    }
+}
+```
+
 
 
 ## 动态规划
@@ -299,6 +321,32 @@ for (int i = 0; i < n; i++) {
 - LCS：[516. Longest Palindromic Subsequence 最长回文子序列](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/516LongestPalindromicSubsequence.md) - medium
 - 编辑距离：[72. Edit Distance 编辑距离](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/72EditDistance.md) - hard
 
+**LCS 问题模板 1143**
+
+```cpp
+class Solution {
+public:
+    int longestCommonSubsequence(string text1, string text2) {
+        int m = text1.size();
+        int n = text2.size();
+        // dp[x][y] 代表 text1[1..x] 和 text2[1..y] 的 LCS 串
+        vector<vector<int>> dp = vector(m+1, vector(n+1, 0));
+        for (int i=1;i<=m;i++) {
+            for (int j=1;j<=n;j++) {
+                if (text1[i-1]==text2[j-1]) {
+                    // 相同字符，在 LCS 串中
+                    dp[i][j] = dp[i-1][j-1] + 1;
+                } else {
+                    // 不同字符，必定有一个不在 LCS 串中
+                    dp[i][j] = max(dp[i-1][j],dp[i][j-1]);
+                }
+            }
+        }
+        return dp[m][n];
+    }
+};
+```
+
 ### 3. State Machine 状态机
 
 ##### 求解：
@@ -337,8 +385,6 @@ Todo
 - [208. Implement Trie (Prefix Tree) 实现 Trie (前缀树)](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/208ImplementTriePrefixTree.md) - medium
 - [211. Design Add and Search Words Data Structure  添加与搜索单词 - 数据结构设计](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/211DesignAddandSearchWordsDataStructure.md) - medium
 
-
-
 TODO
 
 ### 2. 最短路算法
@@ -351,7 +397,45 @@ TODO
 
 ### 4. 拓扑排序
 
-1. [LeetCode 207. 课程表](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/course-schedule/)
+**拓扑排序是对有向无环图（DAG）中节点的一种线性排序，使得每条边 (u → v)，都满足 u 在 v 前面。**
+
+核心思想：维护一个队列，始终保存所有入度为 0 的点，不断销毁其相关的边，看最终能否销毁完
+
+[LeetCode 207. 课程表](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/course-schedule/): 解法如下
+
+```cpp
+bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+    vector<vector<int>> graph(numCourses);   // 邻接表，graph[x] = {y1, y2...} 表示 x → y
+    vector<int> inDegree(numCourses, 0);     // 每个点的入度
+    // Step 1: 构建图 + 统计入度
+    for (auto& pre : prerequisites) {
+        int to = pre[0], from = pre[1];
+        graph[from].push_back(to);
+        inDegree[to]++;
+    }
+    // Step 2: 把所有入度为 0 的点加入队列
+    queue<int> q;
+    for (int i = 0; i < numCourses; ++i) {
+        if (inDegree[i] == 0) q.push(i);
+    }
+    // Step 3: BFS 拓扑排序
+    int count = 0;  // 记录可以完成的课程数
+    while (!q.empty()) {
+        int curr = q.front(); q.pop();
+        count++;
+        for (int neighbor : graph[curr]) {
+            inDegree[neighbor]--;
+            if (inDegree[neighbor] == 0) {
+                q.push(neighbor);
+            }
+        }
+    }
+    // Step 4: 如果所有课程都能完成，说明无环
+    return count == numCourses;
+}
+```
+
+
 
 ### 5. 二叉搜索树
 

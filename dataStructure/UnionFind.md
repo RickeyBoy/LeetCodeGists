@@ -71,6 +71,34 @@ public:
 };
 ```
 
+##### 200 number of islands 用并查集示例
+
+```cpp
+class Solution {
+public:
+    int x,y;
+    int numIslands(vector<vector<char>>& grid) {
+        x = grid.size(); if(x<=0) return 0;
+        y = grid[0].size(); if(y<=0) return 0;
+        UnionFind uf = UnionFind(x*y);
+        for(int i=0;i<x;i++) {
+            for(int j=0;j<y;j++) {
+                if(grid[i][j]=='0') continue;
+                uf.count ++;
+                // 每个点和左侧、上侧的点尝试连接
+                if (i>0&&grid[i-1][j]=='1') uf.unionSet(node(i-1,j),node(i,j));
+                if (j>0&&grid[i][j-1]=='1') uf.unionSet(node(i,j-1),node(i,j));
+            }
+        }
+        // 得到最终结果
+        return uf.count;
+    }
+    int node(int i, int j) {
+        return i*y+j;
+    }
+};
+```
+
 ##### 加权并查集
 
 ```cpp

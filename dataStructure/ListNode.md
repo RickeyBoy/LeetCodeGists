@@ -37,5 +37,22 @@ priority_queue <ListNode*, vector<ListNode*>, compare> queue; // 小顶堆
 
 - 反转链表
 
+```cpp
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode* cur = head;
+        ListNode* pre = NULL;
+        while(cur!=NULL) {
+            ListNode* temp = cur->next;
+            cur->next=pre;
+            pre=cur;
+            cur=temp;
+        }
+        return pre;
+    }
+};
+```
+
 ![rickey_4923](https://github.com/RickeyBoy/LeetCodeGists/blob/master/images/rickey_4923.png?raw=true)
 

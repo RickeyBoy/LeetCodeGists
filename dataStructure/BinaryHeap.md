@@ -37,6 +37,79 @@ priority_queue <ListNode*, vector<ListNode*>, compare> queue;
 - 增大一个元素的值 $O(logn)$
 - 支持持久化
 
+### 215 Kth Largest 模板
+
+```cpp
+int findKthLargest(vector<int>& nums, int k) {
+  	// 最小堆，堆顶是第 k 大的元素
+    priority_queue<int, vector<int>, greater<int>> minHeap; 
+    for (int num : nums) {
+        minHeap.push(num);
+        if (minHeap.size() > k) {
+            minHeap.pop(); // 保证堆中最多有 k 个元素
+        }
+    }
+    return minHeap.top(); // 堆顶就是第 k 大元素
+}
+```
+
+对比用 QuickSelect
+
+```cpp
+class Solution {
+public:
+    // 主函数：返回第 k 大元素
+    int findKthLargest(vector<int>& nums, int k) {
+        // QuickSelect 本质是找 "第 k 大" 对应的 "第 (k-1) 小"
+        return quickSelect(nums, 0, nums.size() - 1, k);
+    }
+private:
+    // QuickSelect 主逻辑：在 nums[left...right] 中找第 k 大
+    int quickSelect(vector<int>& nums, int left, int right, int k) {
+        int pivot = nums[right];       // 选取最右边为 pivot
+        int i = left;                  // i 是分区指针
+      
+        // 把 >= pivot 的数放左边，< pivot 的放右边
+        for (int j = left; j < right; ++j) {
+            if (nums[j] >= pivot) {
+                swap(nums[i], nums[j]);
+                i++;
+            }
+        }
+        swap(nums[i], nums[right]); // 把 pivot 放到中间
+        int count = i - left + 1;   // 左边含 pivot 的元素个数（即当前是第几大）
+      
+        if (count == k) return nums[i]; // 正好是第 k 大
+        else if (count > k) return quickSelect(nums, left, i - 1, k); // 第 k 大在左边
+        else return quickSelect(nums, i + 1, right, k - count); // 在右边，更新 k
+    }
+};
+```
+
+### 327 Top K Frequent
+
+用 `unordered_map` 额外存频率，二叉堆用 Pair 排序
+
+```cpp
+vector<int> topKFrequent(vector<int>& nums, int k) {
+    unordered_map<int, int> freq;
+    for (int num : nums) freq[num]++;
+		// 堆 + Pair，默认先比较 Pair 的第一个元素
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> minHeap;
+    for (auto& [num, count] : freq) {
+        minHeap.push({count, num});
+        if (minHeap.size() > k) minHeap.pop();
+    }
+
+    vector<int> res;
+    while (!minHeap.empty()) {
+        res.push_back(minHeap.top().second);
+        minHeap.pop();
+    }
+    return res;
+}
+```
+
 ### 二叉堆操作
 
 ##### 查询最大值
