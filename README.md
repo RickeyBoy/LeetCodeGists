@@ -541,3 +541,5 @@
 [1579. Remove Max Number of Edges to Keep Graph Fully Traversable 保证图可完全遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1579RemoveMaxNumberofEdgestoKeepGraphFullyTraversable.md) - hard
 
 [1662. Check If Two String Arrays are Equivalent  检查两个字符串数组是否相等](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/1662CheckIfTwoStringArraysareEquivalent.md) - easy
+
+[2311. Longest Binary Subsequence Less Than or Equal to K](2311LongestBinarySubsequenceLessThanorEqualtoK.md) - medium
