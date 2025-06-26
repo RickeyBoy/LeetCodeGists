@@ -8,7 +8,9 @@
 
 ### 0. 常见操作
 
-https://github.com/RickeyBoy/LeetCodeGists/blob/master/dataStructure/Basic.md
+c++: https://github.com/RickeyBoy/LeetCodeGists/blob/master/dataStructure/Basic.md
+
+Swift: https://github.com/RickeyBoy/LeetCodeGists/blob/master/dataStructure/BasicSwift.md
 
 ### 1. 链表
 
