@@ -473,9 +473,67 @@ https://github.com/RickeyBoy/LeetCodeGists/blob/master/series/sort.md
 
 ### 2. 回文子系列
 
-https://zhuanlan.zhihu.com/p/61166108
+**最长回文子序列 Longest Palindromic Substring 【区间 DP 问题】**
 
-Longest Palindromic Subsequence，最长回文子序列Longest Palindromic Substring，最长回文子字符串Count of Palindromic Substrings，最长子字符串的个数问题Minimum Deletions in a String to make it a Palindrome，怎么删掉最少字符构成回文Palindromic Partitioning，怎么分配字符，形成回文
+```c++
+dp[i][j] => [i...j] 之间的最长子序列
+1. if s[i] == s[j] { dp[i][j] = dp[i+1][j-1] + 2 } // 左右两边相等，LPS 可以 +1
+2. else { dp[i][j] = max(dp[i+1][j], dp[i][j-1]) } // 左右两边不等，LPS 只能二选一
+3. 遍历方式：i 从大到小，j 从 i 开始大到小
+4. 初始化 dp[i][i] = 1
+5. 可以优化到一维 dp
+```
+
+**最长回文子字符串 Longest Palindromic Substring【中心拓展法】**
+
+```c++
+// 遍历所有 idx，以 idx 为中心，尝试左右 expand
+// 需要考虑【奇数、偶数】两种情况
+for (int i = 0; i < s.size(); i++) {
+    expand(i, i);     // 奇数回文
+    expand(i, i + 1); // 偶数回文
+}
+```
+
+**最长回文子字符串个数 Count of Palindromic Substrings【中心拓展法】**
+
+```c++
+同样的方法，只不过每次记录个数
+```
+
+**最长子字符串的个数问题 Minimum Deletions in a String to make it a Palindrome【DP】**
+
+```c++
+同第一种，计算最长子序列长度，然后整体长度 - 最长子序列长度
+```
+
+**回文串切割 Palindromic Partitioning【回溯法】**
+
+> LeetCode 131: 给你一个字符串 s，请你将它**切分成多个回文子串的组合**，返回所有合法切法。
+
+```c++
+void backtrack(string& s, int start, vector<string>& path, vector<vector<string>>& res)
+// start: 切割起始位置，终止条件 s.size() == start
+// path: 当前已切好的部分
+// 每次从 start 开始，尝试 end = start+1 到 s.size()，如果有回文，就进入下一轮 backtrack
+for (int end = start; end < s.size(); ++end) {
+    if (isPalindrome(s, start, end)) {
+        path.push_back(s.substr(start, end - start + 1));
+        backtrack(s, end + 1, path, res);
+        path.pop_back();
+    }
+}
+```
+
+**回文串切割 II Palindromic Partitioning II【DP】**
+
+> LeetCode 132: 将一个字符串切成最少的几段，每段都是回文子串，返回最少切割次数
+
+```c++
+1. 预处理所有回文串情况，s[i][j] = 1 or 0
+2. 动态规划, dp[i] => 0...i 的最小切割段数
+3. dp[x] = min(遍历0到x-1，所有 s[i][x]=1 的 dp[i]+1 )
+```
 
 
 
