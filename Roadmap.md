@@ -169,19 +169,55 @@ public:
 
 ##### 求解：
 
-- 定义通用 bfs 函数，函数需要拼上每一步需要的参数
-- 递归调用，每一次递归都需要探索当前的所有可能
-- 通常可以转化为二叉树 or 图的问题
+- 利用 queue 存每一轮的状态
+- 每轮将节点的相邻节点加入 queue
+- 需要记录 visited 状态，避免重复搜索
+- 可能需要状态压缩（针对 visited）
 
 ##### 关键字
 
 - "二叉树"、"区域（图）"
+- start 到 target 最短距离
 
 ##### 例题：
 
 - [102. Binary Tree Level Order Traversal 二叉树的层次遍历](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/102BinaryTreeLevelOrderTraversal.md) - medium
 - [200. Number of Islands 岛屿数量](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/200NumberofIslands.md) - medium
 - [279. Perfect Squares 完全平方数](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/279PerfectSquares.md) - medium
+- [127. Word Ladder](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/127WordLadder.md) - hard
+
+**模板**
+
+```c++
+// 计算从起点 start 到终点 target 的最近距离
+int BFS(Node start, Node target) {
+    Queue<Node> q; // 核心数据结构
+    Set<Node> visited; // 避免走回头路
+
+    q.offer(start); // 将起点加入队列
+    visited.add(start);
+    int step = 0; // 记录扩散的步数
+
+    while (q not empty) {
+        int sz = q.size();
+        /* 将当前队列中的所有节点向四周扩散 */
+        for (int i = 0; i < sz; i++) {
+            Node cur = q.poll();
+            /* 划重点：这里判断是否到达终点 */
+            if (cur is target)
+                return step;
+            /* 将 cur 的相邻节点加入队列 */
+            for (Node x : cur.adj())
+                if (x not in visited) {
+                    q.offer(x);
+                    visited.add(x);
+                }
+        }
+        /* 划重点：更新步数在这里 */
+        step++;
+    }
+}
+```
 
 ### 6. 回溯
 
