@@ -30,6 +30,50 @@
 拓扑排序也可以通过 BFS 完成。
 ```
 
+### 最新：邻接表 graph + 入度 inDegree
+
+```swift
+class Solution {
+    func canFinish(_ numCourses: Int, _ prerequisites: [[Int]]) -> Bool {
+        var graph = [[Int]](repeating: [], count: numCourses)
+        var inDegree = [Int](repeating: 0, count: numCourses)
+
+        // init graph & inDegree
+        for item in prerequisites {
+            let pre = item[1]
+            let next = item[0]
+            graph[pre].append(next)
+            inDegree[next]+=1
+        }
+
+        // init queue
+        var queue = [Int]()
+        for i in (0..<numCourses) {
+            if inDegree[i] == 0 {
+                queue.append(i)
+            }
+        }
+
+        // search
+        var takenCourse = 0
+        while !queue.isEmpty {
+            let course = queue.first!
+            queue.removeFirst();
+            takenCourse+=1
+            for next in graph[course] {
+                // unlock next course
+                inDegree[next] -= 1
+                // check next course can be took now
+                if inDegree[next] == 0 {
+                    queue.append(next)
+                }
+            }
+        }
+
+        return takenCourse == numCourses
+    }
+}
+```
 
 ### 解法：拓扑排序
 

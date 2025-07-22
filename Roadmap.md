@@ -285,6 +285,18 @@ public:
 };
 ```
 
+### 7. 图 & 拓扑
+
+##### 求解
+
+- 构建 **邻接表 graph（二维数组）**: `graph[pre].append(next)`
+- 统计 **入度 inDegree（一维数组）**: `inDegree[next]++`
+- DFS & BFS
+
+##### 例题
+
+- [207. Course Schedule 课程表](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/207CourseSchedule.md) - medium
+
 
 
 ## 动态规划
@@ -511,7 +523,7 @@ https://github.com/RickeyBoy/LeetCodeGists/blob/master/series/sort.md
 
 ### 2. 回文子系列
 
-**最长回文子序列 Longest Palindromic Substring 【区间 DP 问题】**
+**最长回文子序列 Longest Palindromic Subsequence 【区间 DP 问题】**
 
 ```c++
 dp[i][j] => [i...j] 之间的最长子序列
