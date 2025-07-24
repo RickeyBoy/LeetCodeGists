@@ -67,3 +67,52 @@ public:
     }
 };
 ```
+
+### Swift 解法
+
+```swift
+class Solution {
+    func findOrder(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {
+        var graph = [[Int]](repeating: [], count: numCourses)
+        var inDegree = [Int](repeating: 0, count: numCourses)
+        var results = [Int]()
+
+        // init
+        for item in prerequisites {
+            let course = item[0]
+            let pre = item[1]
+            graph[pre].append(course)
+            inDegree[course]+=1
+        }
+
+        // start
+        var queue = [Int]()
+        for i in (0..<numCourses) {
+            if inDegree[i] == 0 {
+                queue.append(i)
+            }
+        }
+
+        while !queue.isEmpty {
+            let course = queue[0]
+            results.append(course)
+            queue.removeFirst()
+            for next in graph[course] {
+                inDegree[next]-=1
+                if inDegree[next] == 0 {
+                    // can take this course
+                    queue.append(next)
+                }
+            }
+        }
+
+        if results.count == numCourses {
+            return results
+        } else {
+            // cant take all course
+            return []
+        }
+    }
+}
+```
+
