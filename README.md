@@ -368,6 +368,8 @@
 
 [240. Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/240Searcha2DMatrixII.md) - medium
 
+[241. Different Ways to Add Parentheses](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/241DifferentWaystoAddParentheses.md) - medium
+
 [264. Ugly Number II 丑数 II](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/264UglyNumberII.md) - medium
 
 [278. First Bad Version 第一个错误的版本](https://github.com/RickeyBoy/LeetCodeGists/blob/master/code/278FirstBadVersion.md) - easy
